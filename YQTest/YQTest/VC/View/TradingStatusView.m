@@ -10,12 +10,15 @@
 
 @implementation TradingStatusView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    _subTitleLabel.hidden = YES;
 }
-*/
+
+- (void)setTitle:(NSString *)title icon:(NSString *)icon {
+    _titleLabel.text = title;
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:icon ofType:@"png"];
+    _imageView.image = [UIImage imageWithContentsOfFile:filePath];
+}
 
 @end

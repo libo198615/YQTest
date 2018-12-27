@@ -7,8 +7,13 @@
 //
 
 #import "SingContractVC.h"
+#import "MyBillCell.h"
+#import "SellerInfomationCell.h"
+#import "SingContractCell.h"
 
 @interface SingContractVC ()
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -19,14 +24,64 @@
     // Do any additional setup after loading the view.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - TableView -
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 3;
 }
-*/
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if (section == 0) {
+        return 2;
+    }
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            SingContractCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SingContractCell"];
+            
+            return cell;
+        } else {
+            MyBillCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBillCell"];
+            
+            return cell;
+        }
+    } else if (indexPath.section == 1) {
+        SellerInfomationCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SellerInfomationCell"];
+        return cell;
+    }
+    MyBillCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBillCell"];
+    
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            return 90;
+        } else {
+            return 250;
+        }
+    } else if (indexPath.section == 1) {
+        return 120;
+    }
+    return 50;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return 0;
+    }
+    return 10;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return nil;
+    }
+    UIView *aview = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 10)];
+    aview.backgroundColor = [UIColor hex:@"F2F2F2"];
+    return aview;
+}
 @end

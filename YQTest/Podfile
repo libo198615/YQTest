@@ -14,5 +14,6 @@ target 'YQTest' do
     pod 'IQKeyboardManager'
     pod 'MBProgressHUD'
     pod 'Masonry'
+    pod 'JKCountDownButton'
 
 end

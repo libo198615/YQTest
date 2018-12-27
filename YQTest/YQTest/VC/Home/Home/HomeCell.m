@@ -13,8 +13,6 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     
-//    UIView *aview = [[UIView alloc] initWithFrame:CGRectMake(20, 20, <#CGFloat width#>, <#CGFloat height#>)];
-    
     _bgView = [[UIView alloc] init];
     [self.contentView addSubview:_bgView];
     [_bgView mas_makeConstraints:^(MASConstraintMaker *make) {

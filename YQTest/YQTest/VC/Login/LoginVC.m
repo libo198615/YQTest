@@ -7,8 +7,13 @@
 //
 
 #import "LoginVC.h"
+#import "NSString+Help.h"
 
 @interface LoginVC ()
+
+@property (strong, nonatomic) IBOutlet UITextField *phoneTextField;
+@property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
+
 
 @end
 
@@ -19,14 +24,39 @@
     // Do any additional setup after loading the view.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)loginAction:(UIButton *)sender {
 }
-*/
+
+- (IBAction)forgetPasswordAction:(id)sender {
+}
+- (IBAction)registerAction:(id)sender {
+}
+
+
+- (IBAction)textFieldValueDidChanged:(id)sender {
+    if (_phoneTextField.text.length <= 11 &&
+        _passwordTextField.text.length >= 6 &&
+        [_phoneTextField.text isNumber]) {
+
+    } else {
+
+    }
+}
+
+//- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+//    if (textField == _phoneNumberTextField) {
+//        [_phoneNumberTextField becomeFirstResponder];
+//        return NO;
+//    } else {
+//        [self registerBtnAction:nil];
+//        return YES;
+//    }
+//    return YES;
+//}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [_phoneTextField resignFirstResponder];
+    [_passwordTextField resignFirstResponder];
+}
 
 @end

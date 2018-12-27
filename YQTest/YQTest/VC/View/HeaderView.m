@@ -10,28 +10,34 @@
 
 @implementation HeaderView
 
-- (void)setLeftTitle:(NSString *)left rightTitle:(NSString *)right {
+- (void)awakeFromNib {
+    [super awakeFromNib];
     
     _leftTitleLabel.textColor = [UIColor hex:@"EC544F"];
-    {
-        NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@万",left]];
-        [text yy_setFont:[UIFont systemFontOfSize:14] range:NSMakeRange(text.length-1, 1)];
-        _leftTitleLabel.attributedText = text;
-    }
     
     _rightTitleLabel.textColor = [UIColor hex:@"F5A623"];
-    {
-        NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@次",right]];
-        [text yy_setFont:[UIFont systemFontOfSize:14] range:NSMakeRange(text.length-1, 1)];
-        _rightTitleLabel.attributedText = text;
-    }
     
     _leftSubTitleLabel.textColor = [UIColor hex:@"8B9199"];
     _leftSubTitleLabel.text = @"当月累计成交额";
     _rightSubTitleLabel.textColor = [UIColor hex:@"8B9199"];
     _rightSubTitleLabel.text = @"成交笔数";
     
-    _line.backgroundColor = [UIColor hex:@"F2F2F2"];
+    _line.backgroundColor = Color_F2F2F2;
+}
+
+- (void)setLeftTitle:(NSString *)left rightTitle:(NSString *)right {
+
+    {
+        NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@万",left]];
+        [text yy_setFont:[UIFont systemFontOfSize:14] range:NSMakeRange(text.length-1, 1)];
+        _leftTitleLabel.attributedText = text;
+    }
+
+    {
+        NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@次",right]];
+        [text yy_setFont:[UIFont systemFontOfSize:14] range:NSMakeRange(text.length-1, 1)];
+        _rightTitleLabel.attributedText = text;
+    }
 }
 
 @end

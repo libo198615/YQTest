@@ -12,6 +12,29 @@
 		091986FE21D45D7400C7C5A5 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091986FD21D45D7400C7C5A5 /* HeaderView.xib */; };
 		0919870121D4644100C7C5A5 /* HomeTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919870021D4644100C7C5A5 /* HomeTitleCell.m */; };
 		0919870521D46E0100C7C5A5 /* SingContractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919870421D46E0100C7C5A5 /* SingContractVC.m */; };
+		0919870821D4719C00C7C5A5 /* MyBillView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919870721D4719C00C7C5A5 /* MyBillView.m */; };
+		0919870A21D471A900C7C5A5 /* MyBillView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0919870921D471A900C7C5A5 /* MyBillView.xib */; };
+		0919870D21D477CD00C7C5A5 /* MyBillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919870C21D477CD00C7C5A5 /* MyBillCell.m */; };
+		0919871221D483CC00C7C5A5 /* SellerInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919871121D483CC00C7C5A5 /* SellerInfomationView.m */; };
+		0919871421D4840F00C7C5A5 /* SellerInfomationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0919871321D4840F00C7C5A5 /* SellerInfomationView.xib */; };
+		0919871721D48A4A00C7C5A5 /* SellerInfomationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919871621D48A4A00C7C5A5 /* SellerInfomationCell.m */; };
+		0919871A21D48C6500C7C5A5 /* SingContractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919871921D48C6500C7C5A5 /* SingContractCell.m */; };
+		0919871D21D4985500C7C5A5 /* TradingStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919871C21D4985500C7C5A5 /* TradingStatusView.m */; };
+		0919871F21D4986200C7C5A5 /* TradingStatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0919871E21D4986200C7C5A5 /* TradingStatusView.xib */; };
+		0919872621D4B08800C7C5A5 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919872521D4B08800C7C5A5 /* RegisterVC.m */; };
+		0919874B21D4B3B000C7C5A5 /* ForgetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919874A21D4B3B000C7C5A5 /* ForgetPasswordVC.m */; };
+		0919876E21D4BA0000C7C5A5 /* UIColor+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919875821D4BA0000C7C5A5 /* UIColor+Help.m */; };
+		0919876F21D4BA0000C7C5A5 /* UIImage+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919875921D4BA0000C7C5A5 /* UIImage+Help.m */; };
+		0919877021D4BA0000C7C5A5 /* UITextField+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919875A21D4BA0000C7C5A5 /* UITextField+Help.m */; };
+		0919877121D4BA0000C7C5A5 /* NSArray+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919875C21D4BA0000C7C5A5 /* NSArray+Help.m */; };
+		0919877221D4BA0000C7C5A5 /* UIPickerView+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919875D21D4BA0000C7C5A5 /* UIPickerView+Help.m */; };
+		0919877321D4BA0000C7C5A5 /* UIViewController+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919875E21D4BA0000C7C5A5 /* UIViewController+Help.m */; };
+		0919877421D4BA0000C7C5A5 /* UIView+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919876321D4BA0000C7C5A5 /* UIView+Help.m */; };
+		0919877521D4BA0000C7C5A5 /* UIImage+GenerateQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919876721D4BA0000C7C5A5 /* UIImage+GenerateQRCode.m */; };
+		0919877621D4BA0000C7C5A5 /* UINavigationController+help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919876821D4BA0000C7C5A5 /* UINavigationController+help.m */; };
+		0919877721D4BA0000C7C5A5 /* NSString+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919876921D4BA0000C7C5A5 /* NSString+Help.m */; };
+		0919877821D4BA0000C7C5A5 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919876D21D4BA0000C7C5A5 /* HUD.m */; };
+		0919877C21D4BA1800C7C5A5 /* PooCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919877A21D4BA1800C7C5A5 /* PooCodeView.m */; };
 		0923BB3421D346B8007A294B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923BB3321D346B8007A294B /* AppDelegate.m */; };
 		0923BB3721D346B8007A294B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923BB3621D346B8007A294B /* ViewController.m */; };
 		0923BB3A21D346B8007A294B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0923BB3821D346B8007A294B /* Main.storyboard */; };
@@ -21,15 +44,6 @@
 		0923BB4C21D346B9007A294B /* YQTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923BB4B21D346B9007A294B /* YQTestTests.m */; };
 		0923BB5721D346B9007A294B /* YQTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923BB5621D346B9007A294B /* YQTestUITests.m */; };
 		097A4A6E21D3687B00EF8053 /* YQBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 097A4A6D21D3687B00EF8053 /* YQBaseViewModel.m */; };
-		0981E29D21D3503E00C2D119 /* UIColor+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E28821D3503E00C2D119 /* UIColor+Help.m */; };
-		0981E29E21D3503E00C2D119 /* UIImage+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E28A21D3503E00C2D119 /* UIImage+Help.m */; };
-		0981E29F21D3503E00C2D119 /* UITextField+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E28B21D3503E00C2D119 /* UITextField+Help.m */; };
-		0981E2A021D3503E00C2D119 /* NSArray+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E28D21D3503E00C2D119 /* NSArray+Help.m */; };
-		0981E2A121D3503E00C2D119 /* UIPickerView+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E28E21D3503E00C2D119 /* UIPickerView+Help.m */; };
-		0981E2A221D3503E00C2D119 /* UIViewController+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E28F21D3503E00C2D119 /* UIViewController+Help.m */; };
-		0981E2A421D3503E00C2D119 /* UIView+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E29521D3503E00C2D119 /* UIView+Help.m */; };
-		0981E2A621D3503E00C2D119 /* UINavigationController+help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E29A21D3503E00C2D119 /* UINavigationController+help.m */; };
-		0981E2A721D3503E00C2D119 /* NSString+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E29B21D3503E00C2D119 /* NSString+Help.m */; };
 		0981E2AC21D3508000C2D119 /* YQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2AB21D3508000C2D119 /* YQTabBarController.m */; };
 		0981E2B421D3535100C2D119 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2B321D3535100C2D119 /* Home.storyboard */; };
 		0981E2B721D3537E00C2D119 /* Transaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2B621D3537E00C2D119 /* Transaction.storyboard */; };
@@ -78,6 +92,55 @@
 		0919870021D4644100C7C5A5 /* HomeTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTitleCell.m; sourceTree = "<group>"; };
 		0919870321D46E0100C7C5A5 /* SingContractVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingContractVC.h; sourceTree = "<group>"; };
 		0919870421D46E0100C7C5A5 /* SingContractVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingContractVC.m; sourceTree = "<group>"; };
+		0919870621D4719C00C7C5A5 /* MyBillView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBillView.h; sourceTree = "<group>"; };
+		0919870721D4719C00C7C5A5 /* MyBillView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBillView.m; sourceTree = "<group>"; };
+		0919870921D471A900C7C5A5 /* MyBillView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyBillView.xib; sourceTree = "<group>"; };
+		0919870B21D477CD00C7C5A5 /* MyBillCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBillCell.h; sourceTree = "<group>"; };
+		0919870C21D477CD00C7C5A5 /* MyBillCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBillCell.m; sourceTree = "<group>"; };
+		0919870F21D4810E00C7C5A5 /* YQColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQColor.h; sourceTree = "<group>"; };
+		0919871021D483CC00C7C5A5 /* SellerInfomationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SellerInfomationView.h; sourceTree = "<group>"; };
+		0919871121D483CC00C7C5A5 /* SellerInfomationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SellerInfomationView.m; sourceTree = "<group>"; };
+		0919871321D4840F00C7C5A5 /* SellerInfomationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellerInfomationView.xib; sourceTree = "<group>"; };
+		0919871521D48A4A00C7C5A5 /* SellerInfomationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SellerInfomationCell.h; sourceTree = "<group>"; };
+		0919871621D48A4A00C7C5A5 /* SellerInfomationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SellerInfomationCell.m; sourceTree = "<group>"; };
+		0919871821D48C6500C7C5A5 /* SingContractCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingContractCell.h; sourceTree = "<group>"; };
+		0919871921D48C6500C7C5A5 /* SingContractCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingContractCell.m; sourceTree = "<group>"; };
+		0919871B21D4985500C7C5A5 /* TradingStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradingStatusView.h; sourceTree = "<group>"; };
+		0919871C21D4985500C7C5A5 /* TradingStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradingStatusView.m; sourceTree = "<group>"; };
+		0919871E21D4986200C7C5A5 /* TradingStatusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradingStatusView.xib; sourceTree = "<group>"; };
+		0919872421D4B08800C7C5A5 /* RegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		0919872521D4B08800C7C5A5 /* RegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		0919874921D4B3B000C7C5A5 /* ForgetPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordVC.h; sourceTree = "<group>"; };
+		0919874A21D4B3B000C7C5A5 /* ForgetPasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordVC.m; sourceTree = "<group>"; };
+		0919874C21D4B78300C7C5A5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		0919874D21D4B8AB00C7C5A5 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		0919874E21D4B8AB00C7C5A5 /* app.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = app.h; sourceTree = "<group>"; };
+		0919874F21D4B8AB00C7C5A5 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		0919875121D4B8AB00C7C5A5 /* String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		0919875721D4BA0000C7C5A5 /* UIView+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Help.h"; sourceTree = "<group>"; };
+		0919875821D4BA0000C7C5A5 /* UIColor+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Help.m"; sourceTree = "<group>"; };
+		0919875921D4BA0000C7C5A5 /* UIImage+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Help.m"; sourceTree = "<group>"; };
+		0919875A21D4BA0000C7C5A5 /* UITextField+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Help.m"; sourceTree = "<group>"; };
+		0919875B21D4BA0000C7C5A5 /* UIImage+GenerateQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GenerateQRCode.h"; sourceTree = "<group>"; };
+		0919875C21D4BA0000C7C5A5 /* NSArray+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Help.m"; sourceTree = "<group>"; };
+		0919875D21D4BA0000C7C5A5 /* UIPickerView+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+Help.m"; sourceTree = "<group>"; };
+		0919875E21D4BA0000C7C5A5 /* UIViewController+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Help.m"; sourceTree = "<group>"; };
+		0919875F21D4BA0000C7C5A5 /* NSString+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Help.h"; sourceTree = "<group>"; };
+		0919876021D4BA0000C7C5A5 /* UINavigationController+help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+help.h"; sourceTree = "<group>"; };
+		0919876121D4BA0000C7C5A5 /* UIImage+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Help.h"; sourceTree = "<group>"; };
+		0919876221D4BA0000C7C5A5 /* UIColor+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Help.h"; sourceTree = "<group>"; };
+		0919876321D4BA0000C7C5A5 /* UIView+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Help.m"; sourceTree = "<group>"; };
+		0919876421D4BA0000C7C5A5 /* UIPickerView+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+Help.h"; sourceTree = "<group>"; };
+		0919876521D4BA0000C7C5A5 /* NSArray+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Help.h"; sourceTree = "<group>"; };
+		0919876621D4BA0000C7C5A5 /* UITextField+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Help.h"; sourceTree = "<group>"; };
+		0919876721D4BA0000C7C5A5 /* UIImage+GenerateQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GenerateQRCode.m"; sourceTree = "<group>"; };
+		0919876821D4BA0000C7C5A5 /* UINavigationController+help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+help.m"; sourceTree = "<group>"; };
+		0919876921D4BA0000C7C5A5 /* NSString+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Help.m"; sourceTree = "<group>"; };
+		0919876A21D4BA0000C7C5A5 /* UIViewController+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Help.h"; sourceTree = "<group>"; };
+		0919876C21D4BA0000C7C5A5 /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		0919876D21D4BA0000C7C5A5 /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
+		0919877A21D4BA1800C7C5A5 /* PooCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooCodeView.m; sourceTree = "<group>"; };
+		0919877B21D4BA1800C7C5A5 /* PooCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooCodeView.h; sourceTree = "<group>"; };
 		0923BB2F21D346B8007A294B /* YQTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0923BB3221D346B8007A294B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0923BB3321D346B8007A294B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,24 +159,6 @@
 		0923BB5821D346B9007A294B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		097A4A6C21D3687B00EF8053 /* YQBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBaseViewModel.h; sourceTree = "<group>"; };
 		097A4A6D21D3687B00EF8053 /* YQBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBaseViewModel.m; sourceTree = "<group>"; };
-		0981E28721D3503E00C2D119 /* UIView+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Help.h"; sourceTree = "<group>"; };
-		0981E28821D3503E00C2D119 /* UIColor+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Help.m"; sourceTree = "<group>"; };
-		0981E28A21D3503E00C2D119 /* UIImage+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Help.m"; sourceTree = "<group>"; };
-		0981E28B21D3503E00C2D119 /* UITextField+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Help.m"; sourceTree = "<group>"; };
-		0981E28D21D3503E00C2D119 /* NSArray+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Help.m"; sourceTree = "<group>"; };
-		0981E28E21D3503E00C2D119 /* UIPickerView+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+Help.m"; sourceTree = "<group>"; };
-		0981E28F21D3503E00C2D119 /* UIViewController+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Help.m"; sourceTree = "<group>"; };
-		0981E29021D3503E00C2D119 /* NSString+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Help.h"; sourceTree = "<group>"; };
-		0981E29121D3503E00C2D119 /* UINavigationController+help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+help.h"; sourceTree = "<group>"; };
-		0981E29221D3503E00C2D119 /* UIImage+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Help.h"; sourceTree = "<group>"; };
-		0981E29421D3503E00C2D119 /* UIColor+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Help.h"; sourceTree = "<group>"; };
-		0981E29521D3503E00C2D119 /* UIView+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Help.m"; sourceTree = "<group>"; };
-		0981E29621D3503E00C2D119 /* UIPickerView+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+Help.h"; sourceTree = "<group>"; };
-		0981E29721D3503E00C2D119 /* NSArray+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Help.h"; sourceTree = "<group>"; };
-		0981E29821D3503E00C2D119 /* UITextField+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Help.h"; sourceTree = "<group>"; };
-		0981E29A21D3503E00C2D119 /* UINavigationController+help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+help.m"; sourceTree = "<group>"; };
-		0981E29B21D3503E00C2D119 /* NSString+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Help.m"; sourceTree = "<group>"; };
-		0981E29C21D3503E00C2D119 /* UIViewController+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Help.h"; sourceTree = "<group>"; };
 		0981E2AA21D3508000C2D119 /* YQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTabBarController.h; sourceTree = "<group>"; };
 		0981E2AB21D3508000C2D119 /* YQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTabBarController.m; sourceTree = "<group>"; };
 		0981E2B321D3535100C2D119 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -181,6 +226,15 @@
 				091986F821D45CC000C7C5A5 /* HeaderView.h */,
 				091986F921D45CC000C7C5A5 /* HeaderView.m */,
 				091986FD21D45D7400C7C5A5 /* HeaderView.xib */,
+				0919870621D4719C00C7C5A5 /* MyBillView.h */,
+				0919870721D4719C00C7C5A5 /* MyBillView.m */,
+				0919870921D471A900C7C5A5 /* MyBillView.xib */,
+				0919871021D483CC00C7C5A5 /* SellerInfomationView.h */,
+				0919871121D483CC00C7C5A5 /* SellerInfomationView.m */,
+				0919871321D4840F00C7C5A5 /* SellerInfomationView.xib */,
+				0919871B21D4985500C7C5A5 /* TradingStatusView.h */,
+				0919871C21D4985500C7C5A5 /* TradingStatusView.m */,
+				0919871E21D4986200C7C5A5 /* TradingStatusView.xib */,
 			);
 			name = View;
 			path = VC/View;
@@ -191,8 +245,86 @@
 			children = (
 				0919870321D46E0100C7C5A5 /* SingContractVC.h */,
 				0919870421D46E0100C7C5A5 /* SingContractVC.m */,
+				0919871821D48C6500C7C5A5 /* SingContractCell.h */,
+				0919871921D48C6500C7C5A5 /* SingContractCell.m */,
+				0919870B21D477CD00C7C5A5 /* MyBillCell.h */,
+				0919870C21D477CD00C7C5A5 /* MyBillCell.m */,
+				0919871521D48A4A00C7C5A5 /* SellerInfomationCell.h */,
+				0919871621D48A4A00C7C5A5 /* SellerInfomationCell.m */,
 			);
 			path = SingContract;
+			sourceTree = "<group>";
+		};
+		0919870E21D47D8100C7C5A5 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				0919872021D4AF4B00C7C5A5 /* PooCodeView */,
+				0919870F21D4810E00C7C5A5 /* YQColor.h */,
+				0919874C21D4B78300C7C5A5 /* Header.h */,
+				0919874E21D4B8AB00C7C5A5 /* app.h */,
+				0919874F21D4B8AB00C7C5A5 /* Macros.h */,
+				0919874D21D4B8AB00C7C5A5 /* Notification.h */,
+				0919875121D4B8AB00C7C5A5 /* String.h */,
+			);
+			name = Help;
+			path = VC/Help;
+			sourceTree = "<group>";
+		};
+		0919872021D4AF4B00C7C5A5 /* PooCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				0919877921D4BA1800C7C5A5 /* PooCodeView */,
+				0919875621D4BA0000C7C5A5 /* Category */,
+				0919876B21D4BA0000C7C5A5 /* HUD */,
+			);
+			path = PooCodeView;
+			sourceTree = "<group>";
+		};
+		0919875621D4BA0000C7C5A5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0919875721D4BA0000C7C5A5 /* UIView+Help.h */,
+				0919875821D4BA0000C7C5A5 /* UIColor+Help.m */,
+				0919875921D4BA0000C7C5A5 /* UIImage+Help.m */,
+				0919875A21D4BA0000C7C5A5 /* UITextField+Help.m */,
+				0919875B21D4BA0000C7C5A5 /* UIImage+GenerateQRCode.h */,
+				0919875C21D4BA0000C7C5A5 /* NSArray+Help.m */,
+				0919875D21D4BA0000C7C5A5 /* UIPickerView+Help.m */,
+				0919875E21D4BA0000C7C5A5 /* UIViewController+Help.m */,
+				0919875F21D4BA0000C7C5A5 /* NSString+Help.h */,
+				0919876021D4BA0000C7C5A5 /* UINavigationController+help.h */,
+				0919876121D4BA0000C7C5A5 /* UIImage+Help.h */,
+				0919876221D4BA0000C7C5A5 /* UIColor+Help.h */,
+				0919876321D4BA0000C7C5A5 /* UIView+Help.m */,
+				0919876421D4BA0000C7C5A5 /* UIPickerView+Help.h */,
+				0919876521D4BA0000C7C5A5 /* NSArray+Help.h */,
+				0919876621D4BA0000C7C5A5 /* UITextField+Help.h */,
+				0919876721D4BA0000C7C5A5 /* UIImage+GenerateQRCode.m */,
+				0919876821D4BA0000C7C5A5 /* UINavigationController+help.m */,
+				0919876921D4BA0000C7C5A5 /* NSString+Help.m */,
+				0919876A21D4BA0000C7C5A5 /* UIViewController+Help.h */,
+			);
+			name = Category;
+			path = YQTest/VC/Help/Category;
+			sourceTree = SOURCE_ROOT;
+		};
+		0919876B21D4BA0000C7C5A5 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				0919876C21D4BA0000C7C5A5 /* HUD.h */,
+				0919876D21D4BA0000C7C5A5 /* HUD.m */,
+			);
+			name = HUD;
+			path = YQTest/VC/Help/HUD;
+			sourceTree = SOURCE_ROOT;
+		};
+		0919877921D4BA1800C7C5A5 /* PooCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				0919877A21D4BA1800C7C5A5 /* PooCodeView.m */,
+				0919877B21D4BA1800C7C5A5 /* PooCodeView.h */,
+			);
+			name = PooCodeView;
 			sourceTree = "<group>";
 		};
 		0923BB2621D346B8007A294B = {
@@ -220,9 +352,9 @@
 		0923BB3121D346B8007A294B /* YQTest */ = {
 			isa = PBXGroup;
 			children = (
+				0919870E21D47D8100C7C5A5 /* Help */,
 				091986F121D45C4400C7C5A5 /* View */,
 				0981E2DD21D361E900C2D119 /* Model */,
-				0981E28621D3503E00C2D119 /* Category */,
 				0981E28521D34F5600C2D119 /* VC */,
 				0923BB3221D346B8007A294B /* AppDelegate.h */,
 				0923BB3321D346B8007A294B /* AppDelegate.m */,
@@ -267,32 +399,6 @@
 				0981E2A821D3504B00C2D119 /* Tabbar */,
 			);
 			path = VC;
-			sourceTree = "<group>";
-		};
-		0981E28621D3503E00C2D119 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				0981E29721D3503E00C2D119 /* NSArray+Help.h */,
-				0981E28D21D3503E00C2D119 /* NSArray+Help.m */,
-				0981E29021D3503E00C2D119 /* NSString+Help.h */,
-				0981E29B21D3503E00C2D119 /* NSString+Help.m */,
-				0981E29421D3503E00C2D119 /* UIColor+Help.h */,
-				0981E28821D3503E00C2D119 /* UIColor+Help.m */,
-				0981E29221D3503E00C2D119 /* UIImage+Help.h */,
-				0981E28A21D3503E00C2D119 /* UIImage+Help.m */,
-				0981E29121D3503E00C2D119 /* UINavigationController+help.h */,
-				0981E29A21D3503E00C2D119 /* UINavigationController+help.m */,
-				0981E29621D3503E00C2D119 /* UIPickerView+Help.h */,
-				0981E28E21D3503E00C2D119 /* UIPickerView+Help.m */,
-				0981E29821D3503E00C2D119 /* UITextField+Help.h */,
-				0981E28B21D3503E00C2D119 /* UITextField+Help.m */,
-				0981E28721D3503E00C2D119 /* UIView+Help.h */,
-				0981E29521D3503E00C2D119 /* UIView+Help.m */,
-				0981E29C21D3503E00C2D119 /* UIViewController+Help.h */,
-				0981E28F21D3503E00C2D119 /* UIViewController+Help.m */,
-			);
-			name = Category;
-			path = Help/Category;
 			sourceTree = "<group>";
 		};
 		0981E2A821D3504B00C2D119 /* Tabbar */ = {
@@ -351,6 +457,10 @@
 				0981E2C521D3550700C2D119 /* Login.storyboard */,
 				0981E2CB21D3573600C2D119 /* LoginVC.h */,
 				0981E2CC21D3573600C2D119 /* LoginVC.m */,
+				0919872421D4B08800C7C5A5 /* RegisterVC.h */,
+				0919872521D4B08800C7C5A5 /* RegisterVC.m */,
+				0919874921D4B3B000C7C5A5 /* ForgetPasswordVC.h */,
+				0919874A21D4B3B000C7C5A5 /* ForgetPasswordVC.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -519,6 +629,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0981E2B421D3535100C2D119 /* Home.storyboard in Resources */,
+				0919871F21D4986200C7C5A5 /* TradingStatusView.xib in Resources */,
 				091986FE21D45D7400C7C5A5 /* HeaderView.xib in Resources */,
 				0923BB3F21D346B9007A294B /* LaunchScreen.storyboard in Resources */,
 				0923BB3C21D346B9007A294B /* Assets.xcassets in Resources */,
@@ -526,8 +637,10 @@
 				0981E2B721D3537E00C2D119 /* Transaction.storyboard in Resources */,
 				0981E2BF21D353AD00C2D119 /* Release.storyboard in Resources */,
 				0981E2BB21D3539300C2D119 /* Mine.storyboard in Resources */,
+				0919870A21D471A900C7C5A5 /* MyBillView.xib in Resources */,
 				0981E2C621D3550700C2D119 /* Login.storyboard in Resources */,
 				0981E2C321D354A300C2D119 /* YQTabBar.storyboard in Resources */,
+				0919871421D4840F00C7C5A5 /* SellerInfomationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,35 +706,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0919877521D4BA0000C7C5A5 /* UIImage+GenerateQRCode.m in Sources */,
 				0981E2AC21D3508000C2D119 /* YQTabBarController.m in Sources */,
 				0923BB3721D346B8007A294B /* ViewController.m in Sources */,
 				0981E2CD21D3573600C2D119 /* LoginVC.m in Sources */,
+				0919877321D4BA0000C7C5A5 /* UIViewController+Help.m in Sources */,
 				0981E2D621D3577600C2D119 /* MineVC.m in Sources */,
+				0919877721D4BA0000C7C5A5 /* NSString+Help.m in Sources */,
 				0981E2E721D362F100C2D119 /* HomeVC.m in Sources */,
 				0919870121D4644100C7C5A5 /* HomeTitleCell.m in Sources */,
-				0981E2A121D3503E00C2D119 /* UIPickerView+Help.m in Sources */,
+				0919871221D483CC00C7C5A5 /* SellerInfomationView.m in Sources */,
+				0919877021D4BA0000C7C5A5 /* UITextField+Help.m in Sources */,
 				0981E2ED21D3633D00C2D119 /* HomeCell.m in Sources */,
 				091986F721D45CAD00C7C5A5 /* YQBaseView.m in Sources */,
+				0919871A21D48C6500C7C5A5 /* SingContractCell.m in Sources */,
 				0923BB4221D346B9007A294B /* main.m in Sources */,
+				0919877221D4BA0000C7C5A5 /* UIPickerView+Help.m in Sources */,
 				0981E2DC21D35B6300C2D119 /* YQBaseTableViewController.m in Sources */,
 				091986FA21D45CC000C7C5A5 /* HeaderView.m in Sources */,
+				0919877C21D4BA1800C7C5A5 /* PooCodeView.m in Sources */,
+				0919876E21D4BA0000C7C5A5 /* UIColor+Help.m in Sources */,
 				0919870521D46E0100C7C5A5 /* SingContractVC.m in Sources */,
-				0981E29F21D3503E00C2D119 /* UITextField+Help.m in Sources */,
+				0919870821D4719C00C7C5A5 /* MyBillView.m in Sources */,
+				0919877121D4BA0000C7C5A5 /* NSArray+Help.m in Sources */,
+				0919877421D4BA0000C7C5A5 /* UIView+Help.m in Sources */,
 				0981E2CA21D356D900C2D119 /* YQBaseViewController.m in Sources */,
+				0919877821D4BA0000C7C5A5 /* HUD.m in Sources */,
 				0981E2D921D3578200C2D119 /* ReleaseVC.m in Sources */,
-				0981E2A621D3503E00C2D119 /* UINavigationController+help.m in Sources */,
-				0981E2A021D3503E00C2D119 /* NSArray+Help.m in Sources */,
+				0919872621D4B08800C7C5A5 /* RegisterVC.m in Sources */,
+				0919871D21D4985500C7C5A5 /* TradingStatusView.m in Sources */,
+				0919871721D48A4A00C7C5A5 /* SellerInfomationCell.m in Sources */,
 				0981E2D021D3574400C2D119 /* TransactionVC.m in Sources */,
-				0981E29E21D3503E00C2D119 /* UIImage+Help.m in Sources */,
+				0919874B21D4B3B000C7C5A5 /* ForgetPasswordVC.m in Sources */,
 				0981E2EA21D3630B00C2D119 /* YQBaseTableViewCell.m in Sources */,
-				0981E2A221D3503E00C2D119 /* UIViewController+Help.m in Sources */,
-				0981E29D21D3503E00C2D119 /* UIColor+Help.m in Sources */,
 				0981E2E321D3620200C2D119 /* AccountModel.m in Sources */,
-				0981E2A721D3503E00C2D119 /* NSString+Help.m in Sources */,
+				0919877621D4BA0000C7C5A5 /* UINavigationController+help.m in Sources */,
 				0981E2E021D361F700C2D119 /* YQBaseModel.m in Sources */,
+				0919870D21D477CD00C7C5A5 /* MyBillCell.m in Sources */,
 				0923BB3421D346B8007A294B /* AppDelegate.m in Sources */,
-				0981E2A421D3503E00C2D119 /* UIView+Help.m in Sources */,
 				097A4A6E21D3687B00EF8053 /* YQBaseViewModel.m in Sources */,
+				0919876F21D4BA0000C7C5A5 /* UIImage+Help.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

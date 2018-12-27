@@ -7,12 +7,26 @@
 //
 
 #import "SingContractCell.h"
+#import "TradingStatusView.h"
+
+@interface SingContractCell ()
+
+@property (nonatomic, strong) TradingStatusView *tradingView;
+
+@end
 
 @implementation SingContractCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+    
+    _tradingView = [TradingStatusView xibInstancetype];
+    [self.contentView addSubview:_tradingView];
+    [_tradingView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.right.bottom.mas_equalTo(self.contentView);
+    }];
+    
+    [_tradingView setTitle:@"待签署协议" icon:@""];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

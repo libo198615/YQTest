@@ -12,6 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SellerInfomationView : YQBaseView
 
+@property (strong, nonatomic) IBOutlet UILabel *label0;
+@property (strong, nonatomic) IBOutlet UILabel *label1;
+@property (strong, nonatomic) IBOutlet UILabel *label2;
+
+@property (strong, nonatomic) IBOutlet UILabel *companyLabel;
+@property (strong, nonatomic) IBOutlet UILabel *legalPersonLabel;
+
+- (void)setCompany:(NSString *)company legalPerson:(NSString *)legalPerson;
+
 @end
 
 NS_ASSUME_NONNULL_END
