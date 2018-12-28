@@ -7,12 +7,22 @@
 //
 
 #import "BillDetailCell.h"
+#import "BillDetailsView.h"
+
+@interface BillDetailCell ()
+@property (nonatomic, strong) BillDetailsView *detailView;
+@end
 
 @implementation BillDetailCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+    
+    _detailView = [BillDetailsView xibInstancetype];
+    [self.contentView addSubview:_detailView];
+    [_detailView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.right.bottom.mas_equalTo(self.contentView);
+    }];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

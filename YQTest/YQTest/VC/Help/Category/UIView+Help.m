@@ -129,7 +129,7 @@
 
 
 /// 添加四边阴影效果
-- (void)addShadowWithColor:(UIColor *)theColor {
+- (void)showShadowWithColor:(UIColor *)theColor {
     // 阴影颜色
     self.layer.shadowColor = theColor.CGColor;
     // 阴影偏移，默认(0, -3)

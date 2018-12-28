@@ -10,7 +10,7 @@
 #import "HomeCell.h"
 #import "HomeTitleCell.h"
 #import "AccountModel.h"
-
+#import "BillDetailVC.h"
 
 @interface HomeVC ()
 
@@ -57,6 +57,13 @@
         
         return cell;
 
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 1) {
+        BillDetailVC *vc = [BillDetailVC storyboardInstanceType];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 

@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PaymentAccountView : YQBaseView
 
+@property (strong, nonatomic) IBOutlet UILabel *leftLabel1;
+@property (strong, nonatomic) IBOutlet UILabel *leftLabel2;
+
+@property (strong, nonatomic) IBOutlet UILabel *rightLabel1;
+@property (strong, nonatomic) IBOutlet UILabel *rightLabel2;
+
 @end
 
 NS_ASSUME_NONNULL_END

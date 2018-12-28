@@ -50,6 +50,6 @@
 
 - (void)setOrigin:(CGPoint)point;
 
-- (void)addShadowWithColor:(UIColor *)theColor;
+- (void)showShadowWithColor:(UIColor *)theColor;
 
 @end

@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BillPhotoCell : YQBaseTableViewCell
 
+@property (strong, nonatomic) IBOutlet UIImageView *imageView0;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView1;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END

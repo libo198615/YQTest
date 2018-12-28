@@ -14,6 +14,11 @@
 
 @implementation YQBaseViewController
 
++ (instancetype)storyboardInstanceType {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"" bundle:nil];
+    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

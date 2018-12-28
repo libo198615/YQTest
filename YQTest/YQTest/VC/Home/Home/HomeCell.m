@@ -22,7 +22,7 @@
         make.height.mas_equalTo(110);
     }];
 
-
+    
 
 
     _topView = [[UIView alloc] init];
@@ -126,7 +126,16 @@
         make.top.width.height.mas_equalTo(self.segmentationView0);
     }];
     
-    
+    UIView *shadowView = [[UIView alloc] init];
+    shadowView.backgroundColor = [UIColor whiteColor];
+    [shadowView showShadowWithColor:[UIColor blackColor]];
+    [self.contentView addSubview:shadowView];
+    [self.contentView sendSubviewToBack:shadowView];
+    [shadowView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.bottom.mas_equalTo(self.contentView).mas_offset(-15);
+        make.left.mas_equalTo(self.contentView).mas_offset(15);
+        make.top.mas_equalTo(self.contentView);
+    }];
 }
 
 - (void)setModel:(AccountModel *)model {

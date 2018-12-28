@@ -6,11 +6,11 @@
 //  Copyright © 2018 boli. All rights reserved.
 //
 
-#import "YQBaseViewController.h"
+#import "YQBaseTableViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BillDetailVC : YQBaseViewController
+@interface BillDetailVC : YQBaseTableViewController
 
 @end
 
