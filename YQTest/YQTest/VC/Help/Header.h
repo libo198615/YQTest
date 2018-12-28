@@ -22,6 +22,6 @@
 #import "Macros.h"
 #import "Notification.h"
 #import "String.h"
-
+#import "YQColor.h"
 
 #endif /* Header_h */

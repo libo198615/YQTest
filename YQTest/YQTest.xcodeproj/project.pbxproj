@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091551E021D5B97E000FDBFC /* VerifiedUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551DF21D5B97E000FDBFC /* VerifiedUploadCell.m */; };
+		091551E421D5C077000FDBFC /* SHImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551E221D5C077000FDBFC /* SHImagePicker.m */; };
+		091551E821D5C2E1000FDBFC /* SHAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551E721D5C2E1000FDBFC /* SHAlertController.m */; };
 		091986F721D45CAD00C7C5A5 /* YQBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091986F621D45CAD00C7C5A5 /* YQBaseView.m */; };
 		091986FA21D45CC000C7C5A5 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091986F921D45CC000C7C5A5 /* HeaderView.m */; };
 		091986FE21D45D7400C7C5A5 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091986FD21D45D7400C7C5A5 /* HeaderView.xib */; };
@@ -35,6 +38,8 @@
 		0919877721D4BA0000C7C5A5 /* NSString+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919876921D4BA0000C7C5A5 /* NSString+Help.m */; };
 		0919877821D4BA0000C7C5A5 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919876D21D4BA0000C7C5A5 /* HUD.m */; };
 		0919877C21D4BA1800C7C5A5 /* PooCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919877A21D4BA1800C7C5A5 /* PooCodeView.m */; };
+		0919878021D4CB5100C7C5A5 /* VerifiedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919877F21D4CB5100C7C5A5 /* VerifiedVC.m */; };
+		0919878321D4CCD100C7C5A5 /* VerifiedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919878221D4CCD100C7C5A5 /* VerifiedCell.m */; };
 		0923BB3421D346B8007A294B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923BB3321D346B8007A294B /* AppDelegate.m */; };
 		0923BB3721D346B8007A294B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923BB3621D346B8007A294B /* ViewController.m */; };
 		0923BB3A21D346B8007A294B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0923BB3821D346B8007A294B /* Main.storyboard */; };
@@ -83,6 +88,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091551DE21D5B97E000FDBFC /* VerifiedUploadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifiedUploadCell.h; sourceTree = "<group>"; };
+		091551DF21D5B97E000FDBFC /* VerifiedUploadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifiedUploadCell.m; sourceTree = "<group>"; };
+		091551E221D5C077000FDBFC /* SHImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHImagePicker.m; sourceTree = "<group>"; };
+		091551E321D5C077000FDBFC /* SHImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHImagePicker.h; sourceTree = "<group>"; };
+		091551E621D5C2E1000FDBFC /* SHAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAlertController.h; sourceTree = "<group>"; };
+		091551E721D5C2E1000FDBFC /* SHAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAlertController.m; sourceTree = "<group>"; };
 		091986F521D45CAD00C7C5A5 /* YQBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBaseView.h; sourceTree = "<group>"; };
 		091986F621D45CAD00C7C5A5 /* YQBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBaseView.m; sourceTree = "<group>"; };
 		091986F821D45CC000C7C5A5 /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
@@ -141,6 +152,10 @@
 		0919876D21D4BA0000C7C5A5 /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
 		0919877A21D4BA1800C7C5A5 /* PooCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooCodeView.m; sourceTree = "<group>"; };
 		0919877B21D4BA1800C7C5A5 /* PooCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooCodeView.h; sourceTree = "<group>"; };
+		0919877E21D4CB5100C7C5A5 /* VerifiedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifiedVC.h; sourceTree = "<group>"; };
+		0919877F21D4CB5100C7C5A5 /* VerifiedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifiedVC.m; sourceTree = "<group>"; };
+		0919878121D4CCD100C7C5A5 /* VerifiedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifiedCell.h; sourceTree = "<group>"; };
+		0919878221D4CCD100C7C5A5 /* VerifiedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifiedCell.m; sourceTree = "<group>"; };
 		0923BB2F21D346B8007A294B /* YQTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0923BB3221D346B8007A294B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0923BB3321D346B8007A294B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -220,6 +235,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091551E121D5C077000FDBFC /* ImagePacker */ = {
+			isa = PBXGroup;
+			children = (
+				091551E221D5C077000FDBFC /* SHImagePicker.m */,
+				091551E321D5C077000FDBFC /* SHImagePicker.h */,
+			);
+			path = ImagePacker;
+			sourceTree = "<group>";
+		};
+		091551E521D5C2E1000FDBFC /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				091551E621D5C2E1000FDBFC /* SHAlertController.h */,
+				091551E721D5C2E1000FDBFC /* SHAlertController.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		091986F121D45C4400C7C5A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +291,8 @@
 		0919870E21D47D8100C7C5A5 /* Help */ = {
 			isa = PBXGroup;
 			children = (
+				091551E521D5C2E1000FDBFC /* Alert */,
+				091551E121D5C077000FDBFC /* ImagePacker */,
 				0919872021D4AF4B00C7C5A5 /* PooCodeView */,
 				0919870F21D4810E00C7C5A5 /* YQColor.h */,
 				0919874C21D4B78300C7C5A5 /* Header.h */,
@@ -325,6 +360,19 @@
 				0919877B21D4BA1800C7C5A5 /* PooCodeView.h */,
 			);
 			name = PooCodeView;
+			sourceTree = "<group>";
+		};
+		0919877D21D4CB3400C7C5A5 /* Verified */ = {
+			isa = PBXGroup;
+			children = (
+				0919877E21D4CB5100C7C5A5 /* VerifiedVC.h */,
+				0919877F21D4CB5100C7C5A5 /* VerifiedVC.m */,
+				0919878121D4CCD100C7C5A5 /* VerifiedCell.h */,
+				0919878221D4CCD100C7C5A5 /* VerifiedCell.m */,
+				091551DE21D5B97E000FDBFC /* VerifiedUploadCell.h */,
+				091551DF21D5B97E000FDBFC /* VerifiedUploadCell.m */,
+			);
+			path = Verified;
 			sourceTree = "<group>";
 		};
 		0923BB2621D346B8007A294B = {
@@ -425,6 +473,7 @@
 			isa = PBXGroup;
 			children = (
 				0981E2BA21D3539300C2D119 /* Mine.storyboard */,
+				0919877D21D4CB3400C7C5A5 /* Verified */,
 				0981E2D421D3577600C2D119 /* MineVC.h */,
 				0981E2D521D3577600C2D119 /* MineVC.m */,
 			);
@@ -670,11 +719,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-YQTest/Pods-YQTest-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -712,6 +763,8 @@
 				0981E2CD21D3573600C2D119 /* LoginVC.m in Sources */,
 				0919877321D4BA0000C7C5A5 /* UIViewController+Help.m in Sources */,
 				0981E2D621D3577600C2D119 /* MineVC.m in Sources */,
+				091551E421D5C077000FDBFC /* SHImagePicker.m in Sources */,
+				091551E821D5C2E1000FDBFC /* SHAlertController.m in Sources */,
 				0919877721D4BA0000C7C5A5 /* NSString+Help.m in Sources */,
 				0981E2E721D362F100C2D119 /* HomeVC.m in Sources */,
 				0919870121D4644100C7C5A5 /* HomeTitleCell.m in Sources */,
@@ -722,11 +775,13 @@
 				0919871A21D48C6500C7C5A5 /* SingContractCell.m in Sources */,
 				0923BB4221D346B9007A294B /* main.m in Sources */,
 				0919877221D4BA0000C7C5A5 /* UIPickerView+Help.m in Sources */,
+				091551E021D5B97E000FDBFC /* VerifiedUploadCell.m in Sources */,
 				0981E2DC21D35B6300C2D119 /* YQBaseTableViewController.m in Sources */,
 				091986FA21D45CC000C7C5A5 /* HeaderView.m in Sources */,
 				0919877C21D4BA1800C7C5A5 /* PooCodeView.m in Sources */,
 				0919876E21D4BA0000C7C5A5 /* UIColor+Help.m in Sources */,
 				0919870521D46E0100C7C5A5 /* SingContractVC.m in Sources */,
+				0919878321D4CCD100C7C5A5 /* VerifiedCell.m in Sources */,
 				0919870821D4719C00C7C5A5 /* MyBillView.m in Sources */,
 				0919877121D4BA0000C7C5A5 /* NSArray+Help.m in Sources */,
 				0919877421D4BA0000C7C5A5 /* UIView+Help.m in Sources */,
@@ -737,6 +792,7 @@
 				0919871D21D4985500C7C5A5 /* TradingStatusView.m in Sources */,
 				0919871721D48A4A00C7C5A5 /* SellerInfomationCell.m in Sources */,
 				0981E2D021D3574400C2D119 /* TransactionVC.m in Sources */,
+				0919878021D4CB5100C7C5A5 /* VerifiedVC.m in Sources */,
 				0919874B21D4B3B000C7C5A5 /* ForgetPasswordVC.m in Sources */,
 				0981E2EA21D3630B00C2D119 /* YQBaseTableViewCell.m in Sources */,
 				0981E2E321D3620200C2D119 /* AccountModel.m in Sources */,

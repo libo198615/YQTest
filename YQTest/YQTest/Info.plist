@@ -23,7 +23,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Login</string>
+	<string>Mine</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -41,5 +41,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSCameraUsageDescription</key>
+    <string>需要开启相机权限才能拍照</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>需要选取手机的照片进行上传，是否允许打开相册</string>
 </dict>
 </plist>

@@ -15,5 +15,6 @@ target 'YQTest' do
     pod 'MBProgressHUD'
     pod 'Masonry'
     pod 'JKCountDownButton'
+    pod 'TZImagePickerController'
 
 end

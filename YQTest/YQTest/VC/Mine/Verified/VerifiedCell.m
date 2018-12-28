@@ -1,19 +1,18 @@
 //
-//  YQBaseTableViewCell.m
+//  VerifiedCell.m
 //  YQTest
 //
-//  Created by boli on 2018/12/26.
+//  Created by boli on 2018/12/27.
 //  Copyright © 2018 boli. All rights reserved.
 //
 
-#import "YQBaseTableViewCell.h"
+#import "VerifiedCell.h"
 
-@implementation YQBaseTableViewCell
+@implementation VerifiedCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    
-    self.selectionStyle = UITableViewCellSelectionStyleNone;
+    // Initialization code
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
