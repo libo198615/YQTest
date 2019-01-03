@@ -13,4 +13,12 @@
 
 #define HUD_Duration 1.5
 
+
+typedef NS_ENUM(NSInteger, BillStatus) {
+    BillStatusAll = 0,
+    BillStatusWaitForTheOtherPartyToConfirm,
+    BillStatusPrePayment,
+    BillStatusDone
+};
+
 #endif /* app_h */

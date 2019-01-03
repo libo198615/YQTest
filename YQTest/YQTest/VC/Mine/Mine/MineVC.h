@@ -6,11 +6,11 @@
 //  Copyright © 2018 boli. All rights reserved.
 //
 
-#import "YQBaseViewController.h"
+#import "YQBaseTableViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MineVC : YQBaseViewController
+@interface MineVC : YQBaseTableViewController
 
 @end
 

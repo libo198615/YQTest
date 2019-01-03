@@ -10,6 +10,13 @@
 
 @implementation UIImage (Help)
 
+- (UIImage *)imagePathName:(NSString *)path {
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:path ofType:@"png"];
+    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+    return image;
+}
+
+
 - (UIImage *)imageByRoundCornerRadius:(CGFloat)radius {
     return [self imageByRoundCornerRadius:radius borderWidth:0 borderColor:nil];
 }

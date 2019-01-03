@@ -57,6 +57,14 @@
 		0919874B21D4B3B000C7C5A5 /* ForgetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919874A21D4B3B000C7C5A5 /* ForgetPasswordVC.m */; };
 		0919878021D4CB5100C7C5A5 /* VerifiedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919877F21D4CB5100C7C5A5 /* VerifiedVC.m */; };
 		0919878321D4CCD100C7C5A5 /* VerifiedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919878221D4CCD100C7C5A5 /* VerifiedCell.m */; };
+		091AA93021DC8D7C00B83187 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AA92E21DC8D7C00B83187 /* MineVC.m */; };
+		091AA93321DC921700B83187 /* MineHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AA93221DC921700B83187 /* MineHeaderCell.m */; };
+		091AA93621DC923300B83187 /* MineItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AA93521DC923300B83187 /* MineItemCell.m */; };
+		091AA93921DC924100B83187 /* MineSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AA93821DC924100B83187 /* MineSelectCell.m */; };
+		091AA93E21DCA45200B83187 /* LBMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AA93D21DCA45200B83187 /* LBMenuVC.m */; };
+		091AA94121DCA59A00B83187 /* LBMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AA94021DCA59A00B83187 /* LBMenuCell.m */; };
+		091AA94421DCA91E00B83187 /* MyBuyBillVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AA94321DCA91E00B83187 /* MyBuyBillVC.m */; };
+		091AA94721DCB0EB00B83187 /* LBMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AA94621DCB0EB00B83187 /* LBMenuView.m */; };
 		0923BB3421D346B8007A294B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923BB3321D346B8007A294B /* AppDelegate.m */; };
 		0923BB3721D346B8007A294B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923BB3621D346B8007A294B /* ViewController.m */; };
 		0923BB3A21D346B8007A294B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0923BB3821D346B8007A294B /* Main.storyboard */; };
@@ -76,7 +84,6 @@
 		0981E2CA21D356D900C2D119 /* YQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2C921D356D900C2D119 /* YQBaseViewController.m */; };
 		0981E2CD21D3573600C2D119 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2CC21D3573600C2D119 /* LoginVC.m */; };
 		0981E2D021D3574400C2D119 /* TransactionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2CF21D3574400C2D119 /* TransactionVC.m */; };
-		0981E2D621D3577600C2D119 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2D521D3577600C2D119 /* MineVC.m */; };
 		0981E2D921D3578200C2D119 /* ReleaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2D821D3578200C2D119 /* ReleaseVC.m */; };
 		0981E2DC21D35B6300C2D119 /* YQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2DB21D35B6300C2D119 /* YQBaseTableViewController.m */; };
 		0981E2E021D361F700C2D119 /* YQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2DF21D361F700C2D119 /* YQBaseModel.m */; };
@@ -203,6 +210,22 @@
 		0919877F21D4CB5100C7C5A5 /* VerifiedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifiedVC.m; sourceTree = "<group>"; };
 		0919878121D4CCD100C7C5A5 /* VerifiedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifiedCell.h; sourceTree = "<group>"; };
 		0919878221D4CCD100C7C5A5 /* VerifiedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifiedCell.m; sourceTree = "<group>"; };
+		091AA92E21DC8D7C00B83187 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		091AA92F21DC8D7C00B83187 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		091AA93121DC921700B83187 /* MineHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineHeaderCell.h; sourceTree = "<group>"; };
+		091AA93221DC921700B83187 /* MineHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineHeaderCell.m; sourceTree = "<group>"; };
+		091AA93421DC923300B83187 /* MineItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineItemCell.h; sourceTree = "<group>"; };
+		091AA93521DC923300B83187 /* MineItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineItemCell.m; sourceTree = "<group>"; };
+		091AA93721DC924100B83187 /* MineSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineSelectCell.h; sourceTree = "<group>"; };
+		091AA93821DC924100B83187 /* MineSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineSelectCell.m; sourceTree = "<group>"; };
+		091AA93C21DCA45200B83187 /* LBMenuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMenuVC.h; sourceTree = "<group>"; };
+		091AA93D21DCA45200B83187 /* LBMenuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMenuVC.m; sourceTree = "<group>"; };
+		091AA93F21DCA59A00B83187 /* LBMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMenuCell.h; sourceTree = "<group>"; };
+		091AA94021DCA59A00B83187 /* LBMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMenuCell.m; sourceTree = "<group>"; };
+		091AA94221DCA91E00B83187 /* MyBuyBillVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBuyBillVC.h; sourceTree = "<group>"; };
+		091AA94321DCA91E00B83187 /* MyBuyBillVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBuyBillVC.m; sourceTree = "<group>"; };
+		091AA94521DCB0EB00B83187 /* LBMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMenuView.h; sourceTree = "<group>"; };
+		091AA94621DCB0EB00B83187 /* LBMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMenuView.m; sourceTree = "<group>"; };
 		0923BB2F21D346B8007A294B /* YQTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0923BB3221D346B8007A294B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0923BB3321D346B8007A294B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -235,8 +258,6 @@
 		0981E2CC21D3573600C2D119 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		0981E2CE21D3574400C2D119 /* TransactionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionVC.h; sourceTree = "<group>"; };
 		0981E2CF21D3574400C2D119 /* TransactionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionVC.m; sourceTree = "<group>"; };
-		0981E2D421D3577600C2D119 /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
-		0981E2D521D3577600C2D119 /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 		0981E2D721D3578200C2D119 /* ReleaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReleaseVC.h; sourceTree = "<group>"; };
 		0981E2D821D3578200C2D119 /* ReleaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReleaseVC.m; sourceTree = "<group>"; };
 		0981E2DA21D35B6300C2D119 /* YQBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBaseTableViewController.h; sourceTree = "<group>"; };
@@ -506,6 +527,7 @@
 		0919870E21D47D8100C7C5A5 /* Help */ = {
 			isa = PBXGroup;
 			children = (
+				091AA93B21DCA2D800B83187 /* MenuVC */,
 				0915524921D5D740000FDBFC /* Operation */,
 				0915521F21D5D6E9000FDBFC /* Category */,
 				0915523421D5D6E9000FDBFC /* HUD */,
@@ -534,6 +556,43 @@
 				091551DF21D5B97E000FDBFC /* VerifiedUploadCell.m */,
 			);
 			path = Verified;
+			sourceTree = "<group>";
+		};
+		091AA92D21DC8D7C00B83187 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				091AA92F21DC8D7C00B83187 /* MineVC.h */,
+				091AA92E21DC8D7C00B83187 /* MineVC.m */,
+				091AA93121DC921700B83187 /* MineHeaderCell.h */,
+				091AA93221DC921700B83187 /* MineHeaderCell.m */,
+				091AA93421DC923300B83187 /* MineItemCell.h */,
+				091AA93521DC923300B83187 /* MineItemCell.m */,
+				091AA93721DC924100B83187 /* MineSelectCell.h */,
+				091AA93821DC924100B83187 /* MineSelectCell.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		091AA93A21DCA1D200B83187 /* MyBuyBill */ = {
+			isa = PBXGroup;
+			children = (
+				091AA94221DCA91E00B83187 /* MyBuyBillVC.h */,
+				091AA94321DCA91E00B83187 /* MyBuyBillVC.m */,
+			);
+			path = MyBuyBill;
+			sourceTree = "<group>";
+		};
+		091AA93B21DCA2D800B83187 /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				091AA93C21DCA45200B83187 /* LBMenuVC.h */,
+				091AA93D21DCA45200B83187 /* LBMenuVC.m */,
+				091AA93F21DCA59A00B83187 /* LBMenuCell.h */,
+				091AA94021DCA59A00B83187 /* LBMenuCell.m */,
+				091AA94521DCB0EB00B83187 /* LBMenuView.h */,
+				091AA94621DCB0EB00B83187 /* LBMenuView.m */,
+			);
+			path = MenuVC;
 			sourceTree = "<group>";
 		};
 		0923BB2621D346B8007A294B = {
@@ -635,9 +694,9 @@
 			isa = PBXGroup;
 			children = (
 				0981E2BA21D3539300C2D119 /* Mine.storyboard */,
+				091AA93A21DCA1D200B83187 /* MyBuyBill */,
+				091AA92D21DC8D7C00B83187 /* Mine */,
 				0919877D21D4CB3400C7C5A5 /* Verified */,
-				0981E2D421D3577600C2D119 /* MineVC.h */,
-				0981E2D521D3577600C2D119 /* MineVC.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -927,16 +986,17 @@
 			files = (
 				0915524F21D5F46B000FDBFC /* BillDetailVC.m in Sources */,
 				0915523E21D5D6EA000FDBFC /* UITextField+Help.m in Sources */,
+				091AA93921DC924100B83187 /* MineSelectCell.m in Sources */,
 				0981E2AC21D3508000C2D119 /* YQTabBarController.m in Sources */,
 				0923BB3721D346B8007A294B /* ViewController.m in Sources */,
 				0915521D21D5D507000FDBFC /* HTTPManager.m in Sources */,
 				0915523F21D5D6EA000FDBFC /* NSArray+Help.m in Sources */,
 				0981E2CD21D3573600C2D119 /* LoginVC.m in Sources */,
-				0981E2D621D3577600C2D119 /* MineVC.m in Sources */,
 				091551E421D5C077000FDBFC /* SHImagePicker.m in Sources */,
 				0915524821D5D6EA000FDBFC /* PooCodeView.m in Sources */,
 				091551E821D5C2E1000FDBFC /* SHAlertController.m in Sources */,
 				0981E2E721D362F100C2D119 /* HomeVC.m in Sources */,
+				091AA93021DC8D7C00B83187 /* MineVC.m in Sources */,
 				0919870121D4644100C7C5A5 /* HomeTitleCell.m in Sources */,
 				0915524521D5D6EA000FDBFC /* NSString+Help.m in Sources */,
 				0981E2ED21D3633D00C2D119 /* HomeCell.m in Sources */,
@@ -945,6 +1005,7 @@
 				0915523D21D5D6EA000FDBFC /* UIImage+Help.m in Sources */,
 				0923BB4221D346B9007A294B /* main.m in Sources */,
 				0915524721D5D6EA000FDBFC /* HUDOperationManager.m in Sources */,
+				091AA94721DCB0EB00B83187 /* LBMenuView.m in Sources */,
 				091551E021D5B97E000FDBFC /* VerifiedUploadCell.m in Sources */,
 				0981E2DC21D35B6300C2D119 /* YQBaseTableViewController.m in Sources */,
 				0915521E21D5D507000FDBFC /* YQBaseRequest.m in Sources */,
@@ -957,6 +1018,7 @@
 				0915525221D5F499000FDBFC /* BillDetailCell.m in Sources */,
 				0981E2D921D3578200C2D119 /* ReleaseVC.m in Sources */,
 				0919872621D4B08800C7C5A5 /* RegisterVC.m in Sources */,
+				091AA93E21DCA45200B83187 /* LBMenuVC.m in Sources */,
 				0919871721D48A4A00C7C5A5 /* SellerInfomationCell.m in Sources */,
 				0915524321D5D6EA000FDBFC /* UIImage+GenerateQRCode.m in Sources */,
 				0915520021D5D0C2000FDBFC /* SellerInfomationView.m in Sources */,
@@ -966,7 +1028,9 @@
 				0981E2D021D3574400C2D119 /* TransactionVC.m in Sources */,
 				0919878021D4CB5100C7C5A5 /* VerifiedVC.m in Sources */,
 				0915526521D611CA000FDBFC /* PaymentAccountView.m in Sources */,
+				091AA93621DC923300B83187 /* MineItemCell.m in Sources */,
 				0915521C21D5D507000FDBFC /* HTTPResponse.m in Sources */,
+				091AA93321DC921700B83187 /* MineHeaderCell.m in Sources */,
 				0915525521D5F4B3000FDBFC /* BillPhotoCell.m in Sources */,
 				0919874B21D4B3B000C7C5A5 /* ForgetPasswordVC.m in Sources */,
 				0915525D21D60EBD000FDBFC /* TradingHeaderView.m in Sources */,
@@ -979,10 +1043,12 @@
 				091551FE21D5D0C2000FDBFC /* MyBillView.m in Sources */,
 				091551FC21D5D0C2000FDBFC /* HeaderView.m in Sources */,
 				0915520521D5D0F1000FDBFC /* BillDetailsView.m in Sources */,
+				091AA94421DCA91E00B83187 /* MyBuyBillVC.m in Sources */,
 				0915525921D60841000FDBFC /* TransactionApplicationVC.m in Sources */,
 				0923BB3421D346B8007A294B /* AppDelegate.m in Sources */,
 				0915523C21D5D6EA000FDBFC /* UIColor+Help.m in Sources */,
 				097A4A6E21D3687B00EF8053 /* YQBaseViewModel.m in Sources */,
+				091AA94121DCA59A00B83187 /* LBMenuCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

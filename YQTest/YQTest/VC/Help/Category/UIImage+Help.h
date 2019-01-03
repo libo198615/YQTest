@@ -10,6 +10,8 @@
 
 @interface UIImage (Help)
 
+- (UIImage *)imagePathName:(NSString *)path;
+
 - (UIImage *)imageByRoundCornerRadius:(CGFloat)radius;
 
 @end

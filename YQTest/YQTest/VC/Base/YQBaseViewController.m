@@ -15,7 +15,7 @@
 @implementation YQBaseViewController
 
 + (instancetype)storyboardInstanceType {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"" bundle:nil];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"未命名" bundle:nil];
     return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
 }
 
