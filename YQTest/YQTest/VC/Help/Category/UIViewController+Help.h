@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LBPushHelp.h"
 
-@interface UIViewController (Help)
+@interface UIViewController (Help) <LBPushHelp>
 
 + (UIViewController *)currentViewController;
+
++ (instancetype)storyboardInstanceType;
+
+// 使用protocol，反正category将原方法覆盖
++ (NSString *)storyboardName;
+
+
 
 @end

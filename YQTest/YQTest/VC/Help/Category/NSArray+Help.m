@@ -7,41 +7,23 @@
 //
 
 #import "NSArray+Help.h"
-#import <objc/runtime.h>
-#import <objc/message.h>
+#import "JRSwizzle.h"
 
 @implementation NSArray (Help)
 
-//When you create an array, you don't get an instance of NSArray. You usually get an NSCFArray, although there are other private classes, like __NSArrayM and so on.
++ (void)load {
+    [[NSArray class] jr_swizzleMethod:@selector(objectAtIndex:) withMethod:@selector(LB_objectAtIndex:) error:nil];
+    
+}
 
-//That's because NSArray is a class cluster.
-//+ (void)load {
-//    static dispatch_once_t onceToken;
-//    dispatch_once(&onceToken, ^{
-//        Class class = object_getClass((id)self);
-//
-//        SEL originalSelector = @selector(objectAtIndex:);
-//        SEL swizzledSelector = @selector(safeObjectAtIndex:);
-//
-//        Method originalMethod = class_getInstanceMethod(class, originalSelector);
-//        Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
-//
-//        BOOL didAddMethod =
-//        class_addMethod(class,
-//                        originalSelector,
-//                        method_getImplementation(swizzledMethod),
-//                        method_getTypeEncoding(swizzledMethod));
-//
-//        if (didAddMethod) {
-//            class_replaceMethod(class,
-//                                swizzledSelector,
-//                                method_getImplementation(originalMethod),
-//                                method_getTypeEncoding(originalMethod));
-//        } else {
-//            method_exchangeImplementations(originalMethod, swizzledMethod);
-//        }
-//    });
-//}
+- (id)LB_objectAtIndex:(NSUInteger)index {
+    if (index >= self.count) {
+        NSLog(@"越界");
+        return nil;
+    } else {
+        return [self LB_objectAtIndex:index];
+    }
+}
 
 - (id)safeObjectAtIndex:(NSUInteger)index {
     if (index >= self.count) {

@@ -14,24 +14,35 @@
 
 @implementation YQBaseViewController
 
-+ (instancetype)storyboardInstanceType {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"未命名" bundle:nil];
-    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
-}
+//+ (instancetype)storyboardInstanceType {
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:[[self class] storyboardName] bundle:nil];
+//    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
+//}
+//
+//+ (NSString *)storyboardName {
+//    return @"未命名";
+//}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setCustomBackItem {
+    [self.navigationController.navigationBar setBackIndicatorImage:[[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    [self.navigationController.navigationBar setBackIndicatorTransitionMaskImage:[[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:@selector(popBack)];
+    
+    self.navigationItem.leftBarButtonItem = backItem;
 }
-*/
+
+- (void)popBack {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    DebugLog(@"dealloc %@",self);
+}
 
 @end

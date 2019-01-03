@@ -30,4 +30,17 @@
     return currentViewController;
 }
 
+
+
++ (instancetype)storyboardInstanceType {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:[[self class] storyboardName] bundle:nil];
+    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
+}
+
++ (NSString *)storyboardName {
+    return @"未命名";
+}
+
+
+
 @end

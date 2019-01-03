@@ -16,9 +16,10 @@
 
 typedef NS_ENUM(NSInteger, BillStatus) {
     BillStatusAll = 0,
-    BillStatusWaitForTheOtherPartyToConfirm,
-    BillStatusPrePayment,
-    BillStatusDone
+    BillStatusWaitForTheOtherPartyToConfirm, // 待对方确认
+    BillStatusPrePayment, // 代付款
+    BillStatusDone,
+    BillStatusFailure
 };
 
 #endif /* app_h */

@@ -10,8 +10,9 @@
 #import "MineHeaderCell.h"
 #import "MineItemCell.h"
 #import "MineSelectCell.h"
-#import "LBMenuVC.h"
-#import "MyBuyBillVC.h"
+#import "MyBuyBillMenuVC.h"
+#import "MyPublishVC.h"
+#import "VerifiedVC.h"
 
 @interface MineVC () <MineSelectCellDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -85,21 +86,23 @@
     }
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 2) {
+        if (indexPath.row == 0) {
+            MyPublishVC *vc = [MyPublishVC storyboardInstanceType];
+            [self.navigationController pushViewController:vc animated:YES];
+        } else if (indexPath.row == 1) {
+            VerifiedVC *vc = [VerifiedVC storyboardInstanceType];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+    }
+}
+
 #pragma mark - MineSelectCellDelegate -
 
 - (void)leftBtnSelected {
-    MyBuyBillVC *vc1 = [MyBuyBillVC storyboardInstanceType];
-    vc1.billStatus = BillStatusAll;
-    MyBuyBillVC *vc2 = [MyBuyBillVC storyboardInstanceType];
-    vc2.billStatus = BillStatusWaitForTheOtherPartyToConfirm;
-    MyBuyBillVC *vc3 = [MyBuyBillVC storyboardInstanceType];
-    vc3.billStatus = BillStatusPrePayment;
-    MyBuyBillVC *vc4 = [MyBuyBillVC storyboardInstanceType];
-    vc4.billStatus = BillStatusDone;
-    
-    LBMenuVC *vc = [[LBMenuVC alloc] init];
+    MyBuyBillMenuVC *vc = [MyBuyBillMenuVC storyboardInstanceType];
     [self.navigationController pushViewController:vc animated:YES];
-    [vc setTitles:@[@"全部", @"待对方确认", @"代付款", @"已完成"] viewControllers:@[vc1, vc2, vc3, vc4]];
 }
 
 - (void)rightBtnSelected {

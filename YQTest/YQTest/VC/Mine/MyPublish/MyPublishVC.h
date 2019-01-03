@@ -1,8 +1,8 @@
 //
-//  MyBuyBillVC.h
+//  MyPublishVC.h
 //  YQTest
 //
-//  Created by boli on 2019/1/2.
+//  Created by boli on 2019/1/3.
 //  Copyright © 2019 boli. All rights reserved.
 //
 
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyBuyBillVC : YQBaseTableViewController
-
-@property(nonatomic, assign) BillStatus billStatus;
+@interface MyPublishVC : YQBaseTableViewController
 
 @end
 

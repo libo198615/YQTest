@@ -7,6 +7,7 @@
 //
 
 #import "MyBuyBillVC.h"
+#import "MyBuyBillCell.h"
 
 @interface MyBuyBillVC ()
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -15,13 +16,13 @@
 
 @implementation MyBuyBillVC
 
-+ (instancetype)storyboardInstanceType {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Mine" bundle:nil];
-    return [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([self class])];
++ (NSString *)storyboardName {
+    return @"Mine";
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     
     switch (_billStatus) {
         case BillStatusAll:
@@ -40,17 +41,25 @@
         default:
             break;
     }
+  
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    MyBuyBillCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBuyBillCell"];
     
+    return cell;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 250;
 }
-*/
 
 @end

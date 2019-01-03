@@ -84,7 +84,7 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.row == -1) {
+    if (_currentShowCellRow == -1) {
         return;
     }
     if (indexPath.row == _currentShowCellRow+1) {

@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "Header.h"
+#import "UIViewController+Help.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YQBaseViewController : UIViewController
 
-+ (instancetype)storyboardInstanceType;
+//+ (instancetype)storyboardInstanceType;
+//
+//+ (NSString *)storyboardName;
 
 @end
 

@@ -29,6 +29,10 @@
 
 @implementation VerifiedVC
 
++ (NSString *)storyboardName {
+    return @"Mine";
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
