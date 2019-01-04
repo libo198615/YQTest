@@ -1,5 +1,5 @@
 //
-//  ReleaseVC.h
+//  PublishVC.h
 //  YQTest
 //
 //  Created by boli on 2018/12/26.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ReleaseVC : YQBaseViewController
+@interface PublishVC : YQBaseViewController
 
 @end
 

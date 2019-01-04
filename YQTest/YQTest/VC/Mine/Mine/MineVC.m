@@ -11,6 +11,7 @@
 #import "MineItemCell.h"
 #import "MineSelectCell.h"
 #import "MyBuyBillMenuVC.h"
+#import "MySellMenuVC.h"
 #import "MyPublishVC.h"
 #import "VerifiedVC.h"
 
@@ -106,7 +107,8 @@
 }
 
 - (void)rightBtnSelected {
-    
+    MySellMenuVC *vc = [MySellMenuVC storyboardInstanceType];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

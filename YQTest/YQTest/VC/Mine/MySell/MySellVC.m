@@ -1,21 +1,20 @@
 //
-//  MyBuyBillVC.m
+//  MySellVC.m
 //  YQTest
 //
-//  Created by boli on 2019/1/2.
+//  Created by boli on 2019/1/4.
 //  Copyright © 2019 boli. All rights reserved.
 //
 
-#import "MyBuyBillVC.h"
-#import "MyBuyBillCell.h"
-#import "TransactionDetailVC.h"
+#import "MySellVC.h"
+#import "MySellCell.h"
 
-@interface MyBuyBillVC ()
+@interface MySellVC ()
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
-@implementation MyBuyBillVC
+@implementation MySellVC
 
 + (NSString *)storyboardName {
     return @"Mine";
@@ -23,7 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     
     switch (_billStatus) {
         case BillStatusAll:
@@ -42,7 +40,6 @@
         default:
             break;
     }
-  
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -54,18 +51,18 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    MyBuyBillCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBuyBillCell"];
+    MySellCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MySellCell"];
     
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 250;
+    return 100;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    TransactionDetailVC *vc = [TransactionDetailVC storyboardInstanceType];
-    [self.navigationController pushViewController:vc animated:YES];
+//    TransactionDetailVC *vc = [TransactionDetailVC storyboardInstanceType];
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

@@ -83,7 +83,6 @@
         weakSelf.line.frame = CGRectMake(self.frame.size.width/weakSelf.titles.count*button.tag + (self.frame.size.width/weakSelf.titles.count-width)/2, self.frame.size.height-5, width, 2);
     }];
     _currentIndex = button.tag;
-    NSLog(@"aaa %d",_currentIndex);
 }
 
 - (void)setSelectedTitleAtIndex:(NSInteger)index {

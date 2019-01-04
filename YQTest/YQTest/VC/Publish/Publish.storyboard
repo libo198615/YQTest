@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--ReleaseVC-->
+        <!--PublishVC-->
         <scene sceneID="yhu-S4-o3O">
             <objects>
-                <viewController storyboardIdentifier="ReleaseVC" id="HAx-8d-ypo" customClass="ReleaseVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PublishVC" id="HAx-8d-ypo" customClass="PublishVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7nt-1u-aGH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

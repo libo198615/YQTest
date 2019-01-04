@@ -16,7 +16,7 @@
 + (instancetype)storyboardInstanceType;
 
 // 使用protocol，反正category将原方法覆盖
-+ (NSString *)storyboardName;
+//+ (NSString *)storyboardName;
 
 
 

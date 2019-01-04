@@ -35,6 +35,10 @@
 
 @implementation TransactionApplicationVC
 
++ (NSString *)storyboardName {
+    return @"Home";
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

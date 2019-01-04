@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="353" y="-731"/>
         </scene>
-        <!--Release-->
+        <!--Publish-->
         <scene sceneID="xDg-p4-7el">
             <objects>
-                <viewControllerPlaceholder storyboardName="Release" id="c1M-Hl-iCf" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Publish" id="c1M-Hl-iCf" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="S7m-t6-dLi"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPc-RP-GYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>

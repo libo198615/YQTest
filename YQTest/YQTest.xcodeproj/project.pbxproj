@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0911920221DEF78900ABEA67 /* TransactionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191F921DEF78900ABEA67 /* TransactionHeaderCell.m */; };
+		0911920321DEF78900ABEA67 /* TransactionPaymentAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191FE21DEF78900ABEA67 /* TransactionPaymentAccountCell.m */; };
+		0911920421DEF78900ABEA67 /* TransactionBaseInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191FF21DEF78900ABEA67 /* TransactionBaseInfoCell.m */; };
+		0911920521DEF78900ABEA67 /* TransactionDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911920021DEF78900ABEA67 /* TransactionDetailVC.m */; };
+		0911920621DEF78900ABEA67 /* TransactionInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911920121DEF78900ABEA67 /* TransactionInfoCell.m */; };
+		0911920A21DF247200ABEA67 /* MySellMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911920921DF247200ABEA67 /* MySellMenuVC.m */; };
+		0911920D21DF24F800ABEA67 /* MySellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911920C21DF24F800ABEA67 /* MySellVC.m */; };
+		0911921021DF250D00ABEA67 /* MySellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911920F21DF250D00ABEA67 /* MySellCell.m */; };
 		091551E021D5B97E000FDBFC /* VerifiedUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551DF21D5B97E000FDBFC /* VerifiedUploadCell.m */; };
 		091551E421D5C077000FDBFC /* SHImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551E221D5C077000FDBFC /* SHImagePicker.m */; };
 		091551E821D5C2E1000FDBFC /* SHAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551E721D5C2E1000FDBFC /* SHAlertController.m */; };
@@ -81,13 +89,13 @@
 		0981E2B421D3535100C2D119 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2B321D3535100C2D119 /* Home.storyboard */; };
 		0981E2B721D3537E00C2D119 /* Transaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2B621D3537E00C2D119 /* Transaction.storyboard */; };
 		0981E2BB21D3539300C2D119 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2BA21D3539300C2D119 /* Mine.storyboard */; };
-		0981E2BF21D353AD00C2D119 /* Release.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2BE21D353AD00C2D119 /* Release.storyboard */; };
+		0981E2BF21D353AD00C2D119 /* Publish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2BE21D353AD00C2D119 /* Publish.storyboard */; };
 		0981E2C321D354A300C2D119 /* YQTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2C221D354A300C2D119 /* YQTabBar.storyboard */; };
 		0981E2C621D3550700C2D119 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0981E2C521D3550700C2D119 /* Login.storyboard */; };
 		0981E2CA21D356D900C2D119 /* YQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2C921D356D900C2D119 /* YQBaseViewController.m */; };
 		0981E2CD21D3573600C2D119 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2CC21D3573600C2D119 /* LoginVC.m */; };
 		0981E2D021D3574400C2D119 /* TransactionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2CF21D3574400C2D119 /* TransactionVC.m */; };
-		0981E2D921D3578200C2D119 /* ReleaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2D821D3578200C2D119 /* ReleaseVC.m */; };
+		0981E2D921D3578200C2D119 /* PublishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2D821D3578200C2D119 /* PublishVC.m */; };
 		0981E2DC21D35B6300C2D119 /* YQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2DB21D35B6300C2D119 /* YQBaseTableViewController.m */; };
 		0981E2E021D361F700C2D119 /* YQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2DF21D361F700C2D119 /* YQBaseModel.m */; };
 		0981E2E321D3620200C2D119 /* AccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2E221D3620200C2D119 /* AccountModel.m */; };
@@ -121,6 +129,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091191F821DEF78900ABEA67 /* TransactionPaymentAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionPaymentAccountCell.h; sourceTree = "<group>"; };
+		091191F921DEF78900ABEA67 /* TransactionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionHeaderCell.m; sourceTree = "<group>"; };
+		091191FA21DEF78900ABEA67 /* TransactionBaseInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionBaseInfoCell.h; sourceTree = "<group>"; };
+		091191FB21DEF78900ABEA67 /* TransactionDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailVC.h; sourceTree = "<group>"; };
+		091191FC21DEF78900ABEA67 /* TransactionInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionInfoCell.h; sourceTree = "<group>"; };
+		091191FD21DEF78900ABEA67 /* TransactionHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionHeaderCell.h; sourceTree = "<group>"; };
+		091191FE21DEF78900ABEA67 /* TransactionPaymentAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionPaymentAccountCell.m; sourceTree = "<group>"; };
+		091191FF21DEF78900ABEA67 /* TransactionBaseInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionBaseInfoCell.m; sourceTree = "<group>"; };
+		0911920021DEF78900ABEA67 /* TransactionDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailVC.m; sourceTree = "<group>"; };
+		0911920121DEF78900ABEA67 /* TransactionInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionInfoCell.m; sourceTree = "<group>"; };
+		0911920821DF247200ABEA67 /* MySellMenuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySellMenuVC.h; sourceTree = "<group>"; };
+		0911920921DF247200ABEA67 /* MySellMenuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySellMenuVC.m; sourceTree = "<group>"; };
+		0911920B21DF24F800ABEA67 /* MySellVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySellVC.h; sourceTree = "<group>"; };
+		0911920C21DF24F800ABEA67 /* MySellVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySellVC.m; sourceTree = "<group>"; };
+		0911920E21DF250D00ABEA67 /* MySellCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySellCell.h; sourceTree = "<group>"; };
+		0911920F21DF250D00ABEA67 /* MySellCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySellCell.m; sourceTree = "<group>"; };
 		091551DE21D5B97E000FDBFC /* VerifiedUploadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifiedUploadCell.h; sourceTree = "<group>"; };
 		091551DF21D5B97E000FDBFC /* VerifiedUploadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifiedUploadCell.m; sourceTree = "<group>"; };
 		091551E221D5C077000FDBFC /* SHImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHImagePicker.m; sourceTree = "<group>"; };
@@ -264,7 +288,7 @@
 		0981E2B321D3535100C2D119 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		0981E2B621D3537E00C2D119 /* Transaction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transaction.storyboard; sourceTree = "<group>"; };
 		0981E2BA21D3539300C2D119 /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
-		0981E2BE21D353AD00C2D119 /* Release.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Release.storyboard; sourceTree = "<group>"; };
+		0981E2BE21D353AD00C2D119 /* Publish.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Publish.storyboard; sourceTree = "<group>"; };
 		0981E2C221D354A300C2D119 /* YQTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YQTabBar.storyboard; sourceTree = "<group>"; };
 		0981E2C521D3550700C2D119 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		0981E2C821D356D900C2D119 /* YQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBaseViewController.h; sourceTree = "<group>"; };
@@ -273,8 +297,8 @@
 		0981E2CC21D3573600C2D119 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		0981E2CE21D3574400C2D119 /* TransactionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionVC.h; sourceTree = "<group>"; };
 		0981E2CF21D3574400C2D119 /* TransactionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionVC.m; sourceTree = "<group>"; };
-		0981E2D721D3578200C2D119 /* ReleaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReleaseVC.h; sourceTree = "<group>"; };
-		0981E2D821D3578200C2D119 /* ReleaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReleaseVC.m; sourceTree = "<group>"; };
+		0981E2D721D3578200C2D119 /* PublishVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishVC.h; sourceTree = "<group>"; };
+		0981E2D821D3578200C2D119 /* PublishVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishVC.m; sourceTree = "<group>"; };
 		0981E2DA21D35B6300C2D119 /* YQBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBaseTableViewController.h; sourceTree = "<group>"; };
 		0981E2DB21D35B6300C2D119 /* YQBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBaseTableViewController.m; sourceTree = "<group>"; };
 		0981E2DE21D361F700C2D119 /* YQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBaseModel.h; sourceTree = "<group>"; };
@@ -329,6 +353,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091191F721DEF78900ABEA67 /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				091191FB21DEF78900ABEA67 /* TransactionDetailVC.h */,
+				0911920021DEF78900ABEA67 /* TransactionDetailVC.m */,
+				091191FA21DEF78900ABEA67 /* TransactionBaseInfoCell.h */,
+				091191FF21DEF78900ABEA67 /* TransactionBaseInfoCell.m */,
+				091191FD21DEF78900ABEA67 /* TransactionHeaderCell.h */,
+				091191F921DEF78900ABEA67 /* TransactionHeaderCell.m */,
+				091191FC21DEF78900ABEA67 /* TransactionInfoCell.h */,
+				0911920121DEF78900ABEA67 /* TransactionInfoCell.m */,
+				091191F821DEF78900ABEA67 /* TransactionPaymentAccountCell.h */,
+				091191FE21DEF78900ABEA67 /* TransactionPaymentAccountCell.m */,
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		0911920721DF089400ABEA67 /* MySell */ = {
+			isa = PBXGroup;
+			children = (
+				0911920821DF247200ABEA67 /* MySellMenuVC.h */,
+				0911920921DF247200ABEA67 /* MySellMenuVC.m */,
+				0911920B21DF24F800ABEA67 /* MySellVC.h */,
+				0911920C21DF24F800ABEA67 /* MySellVC.m */,
+				0911920E21DF250D00ABEA67 /* MySellCell.h */,
+				0911920F21DF250D00ABEA67 /* MySellCell.m */,
+			);
+			path = MySell;
+			sourceTree = "<group>";
+		};
 		091551E121D5C077000FDBFC /* ImagePacker */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,8 +418,8 @@
 			isa = PBXGroup;
 			children = (
 				091551EB21D5D0C2000FDBFC /* TradingStatusView.h */,
-				091551EC21D5D0C2000FDBFC /* TradingStatusView.xib */,
 				091551ED21D5D0C2000FDBFC /* TradingStatusView.m */,
+				091551EC21D5D0C2000FDBFC /* TradingStatusView.xib */,
 			);
 			path = TradingStatusView;
 			sourceTree = "<group>";
@@ -373,9 +427,9 @@
 		091551EE21D5D0C2000FDBFC /* HeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				091551F121D5D0C2000FDBFC /* HeaderView.h */,
 				091551EF21D5D0C2000FDBFC /* HeaderView.m */,
 				091551F021D5D0C2000FDBFC /* HeaderView.xib */,
-				091551F121D5D0C2000FDBFC /* HeaderView.h */,
 			);
 			path = HeaderView;
 			sourceTree = "<group>";
@@ -503,9 +557,9 @@
 		0915526021D611B7000FDBFC /* PaymentAccountView */ = {
 			isa = PBXGroup;
 			children = (
-				0915526121D611BF000FDBFC /* PaymentAccountView.xib */,
 				0915526321D611CA000FDBFC /* PaymentAccountView.h */,
 				0915526421D611CA000FDBFC /* PaymentAccountView.m */,
+				0915526121D611BF000FDBFC /* PaymentAccountView.xib */,
 			);
 			path = PaymentAccountView;
 			sourceTree = "<group>";
@@ -606,12 +660,12 @@
 		091AA93A21DCA1D200B83187 /* MyBuyBill */ = {
 			isa = PBXGroup;
 			children = (
+				091D257F21DDDB4400BAF335 /* MyBuyBillMenuVC.h */,
+				091D258021DDDB4400BAF335 /* MyBuyBillMenuVC.m */,
 				091AA94221DCA91E00B83187 /* MyBuyBillVC.h */,
 				091AA94321DCA91E00B83187 /* MyBuyBillVC.m */,
 				09D171A021DDE80900EBF183 /* MyBuyBillCell.h */,
 				09D171A121DDE80900EBF183 /* MyBuyBillCell.m */,
-				091D257F21DDDB4400BAF335 /* MyBuyBillMenuVC.h */,
-				091D258021DDDB4400BAF335 /* MyBuyBillMenuVC.m */,
 			);
 			path = MyBuyBill;
 			sourceTree = "<group>";
@@ -708,7 +762,7 @@
 				0981E2B521D3537500C2D119 /* Transaction */,
 				0981E2B221D3534700C2D119 /* Home */,
 				0981E2B121D3534700C2D119 /* Mine */,
-				0981E2B021D3534700C2D119 /* Release */,
+				0981E2B021D3534700C2D119 /* Publish */,
 				0981E2A821D3504B00C2D119 /* Tabbar */,
 			);
 			path = VC;
@@ -724,20 +778,21 @@
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
-		0981E2B021D3534700C2D119 /* Release */ = {
+		0981E2B021D3534700C2D119 /* Publish */ = {
 			isa = PBXGroup;
 			children = (
-				0981E2BE21D353AD00C2D119 /* Release.storyboard */,
-				0981E2D721D3578200C2D119 /* ReleaseVC.h */,
-				0981E2D821D3578200C2D119 /* ReleaseVC.m */,
+				0981E2BE21D353AD00C2D119 /* Publish.storyboard */,
+				0981E2D721D3578200C2D119 /* PublishVC.h */,
+				0981E2D821D3578200C2D119 /* PublishVC.m */,
 			);
-			path = Release;
+			path = Publish;
 			sourceTree = "<group>";
 		};
 		0981E2B121D3534700C2D119 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
 				0981E2BA21D3539300C2D119 /* Mine.storyboard */,
+				0911920721DF089400ABEA67 /* MySell */,
 				09C0886821DDF94B00A2A515 /* MyPublish */,
 				091AA93A21DCA1D200B83187 /* MyBuyBill */,
 				091AA92D21DC8D7C00B83187 /* Mine */,
@@ -764,6 +819,7 @@
 				0981E2B621D3537E00C2D119 /* Transaction.storyboard */,
 				0981E2CE21D3574400C2D119 /* TransactionVC.h */,
 				0981E2CF21D3574400C2D119 /* TransactionVC.m */,
+				091191F721DEF78900ABEA67 /* TransactionDetail */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -984,7 +1040,7 @@
 				0923BB3A21D346B8007A294B /* Main.storyboard in Resources */,
 				091551FD21D5D0C2000FDBFC /* HeaderView.xib in Resources */,
 				0981E2B721D3537E00C2D119 /* Transaction.storyboard in Resources */,
-				0981E2BF21D353AD00C2D119 /* Release.storyboard in Resources */,
+				0981E2BF21D353AD00C2D119 /* Publish.storyboard in Resources */,
 				0915520121D5D0C2000FDBFC /* SellerInfomationView.xib in Resources */,
 				091551FA21D5D0C2000FDBFC /* TradingStatusView.xib in Resources */,
 				0915520721D5D0FA000FDBFC /* BillDetailsView.xib in Resources */,
@@ -1077,17 +1133,20 @@
 				091551E821D5C2E1000FDBFC /* SHAlertController.m in Sources */,
 				0981E2E721D362F100C2D119 /* HomeVC.m in Sources */,
 				091AA93021DC8D7C00B83187 /* MineVC.m in Sources */,
+				0911920421DEF78900ABEA67 /* TransactionBaseInfoCell.m in Sources */,
 				0919870121D4644100C7C5A5 /* HomeTitleCell.m in Sources */,
 				0915524521D5D6EA000FDBFC /* NSString+Help.m in Sources */,
 				0981E2ED21D3633D00C2D119 /* HomeCell.m in Sources */,
 				091986F721D45CAD00C7C5A5 /* YQBaseView.m in Sources */,
 				0919871A21D48C6500C7C5A5 /* SingContractCell.m in Sources */,
 				0915523D21D5D6EA000FDBFC /* UIImage+Help.m in Sources */,
+				0911920A21DF247200ABEA67 /* MySellMenuVC.m in Sources */,
 				0923BB4221D346B9007A294B /* main.m in Sources */,
 				0915524721D5D6EA000FDBFC /* HUDOperationManager.m in Sources */,
 				091AA94721DCB0EB00B83187 /* LBMenuView.m in Sources */,
 				091551E021D5B97E000FDBFC /* VerifiedUploadCell.m in Sources */,
 				0981E2DC21D35B6300C2D119 /* YQBaseTableViewController.m in Sources */,
+				0911921021DF250D00ABEA67 /* MySellCell.m in Sources */,
 				0915521E21D5D507000FDBFC /* YQBaseRequest.m in Sources */,
 				0919870521D46E0100C7C5A5 /* SingContractVC.m in Sources */,
 				091551FB21D5D0C2000FDBFC /* TradingStatusView.m in Sources */,
@@ -1097,13 +1156,14 @@
 				0981E2CA21D356D900C2D119 /* YQBaseViewController.m in Sources */,
 				0915524121D5D6EA000FDBFC /* UIViewController+Help.m in Sources */,
 				0915525221D5F499000FDBFC /* BillDetailCell.m in Sources */,
-				0981E2D921D3578200C2D119 /* ReleaseVC.m in Sources */,
+				0981E2D921D3578200C2D119 /* PublishVC.m in Sources */,
 				0919872621D4B08800C7C5A5 /* RegisterVC.m in Sources */,
 				091AA93E21DCA45200B83187 /* LBMenuVC.m in Sources */,
 				0919871721D48A4A00C7C5A5 /* SellerInfomationCell.m in Sources */,
 				0915524321D5D6EA000FDBFC /* UIImage+GenerateQRCode.m in Sources */,
 				0915520021D5D0C2000FDBFC /* SellerInfomationView.m in Sources */,
 				0915524421D5D6EA000FDBFC /* UINavigationController+help.m in Sources */,
+				0911920D21DF24F800ABEA67 /* MySellVC.m in Sources */,
 				0915524021D5D6EA000FDBFC /* UIPickerView+Help.m in Sources */,
 				0915524621D5D6EA000FDBFC /* HUD.m in Sources */,
 				0981E2D021D3574400C2D119 /* TransactionVC.m in Sources */,
@@ -1113,7 +1173,10 @@
 				0915521C21D5D507000FDBFC /* HTTPResponse.m in Sources */,
 				091AA93321DC921700B83187 /* MineHeaderCell.m in Sources */,
 				0915525521D5F4B3000FDBFC /* BillPhotoCell.m in Sources */,
+				0911920521DEF78900ABEA67 /* TransactionDetailVC.m in Sources */,
 				0919874B21D4B3B000C7C5A5 /* ForgetPasswordVC.m in Sources */,
+				0911920321DEF78900ABEA67 /* TransactionPaymentAccountCell.m in Sources */,
+				0911920621DEF78900ABEA67 /* TransactionInfoCell.m in Sources */,
 				0915525D21D60EBD000FDBFC /* TradingHeaderView.m in Sources */,
 				0981E2EA21D3630B00C2D119 /* YQBaseTableViewCell.m in Sources */,
 				0981E2E321D3620200C2D119 /* AccountModel.m in Sources */,
@@ -1122,6 +1185,7 @@
 				0915524C21D5D740000FDBFC /* SHOperation.m in Sources */,
 				0919870D21D477CD00C7C5A5 /* MyBillCell.m in Sources */,
 				091551FE21D5D0C2000FDBFC /* MyBillView.m in Sources */,
+				0911920221DEF78900ABEA67 /* TransactionHeaderCell.m in Sources */,
 				091D257C21DD9E2300BAF335 /* BillView.m in Sources */,
 				091551FC21D5D0C2000FDBFC /* HeaderView.m in Sources */,
 				09D1719F21DDE36D00EBF183 /* JRSwizzle.m in Sources */,
@@ -1307,6 +1371,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3RATYM3DWB;
 				INFOPLIST_FILE = YQTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1326,6 +1391,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = YQTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

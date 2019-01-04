@@ -9,9 +9,11 @@
 #import "BillDetailVC.h"
 #import "BillDetailCell.h"
 #import "BillPhotoCell.h"
+#import "TransactionApplicationVC.h"
 
 @interface BillDetailVC ()
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet UIButton *nextBtn;
 
 @end
 
@@ -70,5 +72,9 @@
     return label;
 }
 
+- (IBAction)nextBtnAction:(UIButton *)sender {
+    TransactionApplicationVC *vc = [TransactionApplicationVC storyboardInstanceType];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end

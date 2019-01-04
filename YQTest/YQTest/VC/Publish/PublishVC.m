@@ -1,18 +1,18 @@
 //
-//  ReleaseVC.m
+//  PublishVC.m
 //  YQTest
 //
 //  Created by boli on 2018/12/26.
 //  Copyright © 2018 boli. All rights reserved.
 //
 
-#import "ReleaseVC.h"
+#import "PublishVC.h"
 
-@interface ReleaseVC ()
+@interface PublishVC ()
 
 @end
 
-@implementation ReleaseVC
+@implementation PublishVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
