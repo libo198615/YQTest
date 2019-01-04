@@ -8,6 +8,7 @@
 
 #import "MySellVC.h"
 #import "MySellCell.h"
+#import "SingContractVC.h"
 
 @interface MySellVC ()
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -61,8 +62,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    TransactionDetailVC *vc = [TransactionDetailVC storyboardInstanceType];
-//    [self.navigationController pushViewController:vc animated:YES];
+    SingContractVC *vc = [SingContractVC storyboardInstanceType];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

@@ -19,6 +19,10 @@
 
 @implementation SingContractVC
 
++ (NSString *)storyboardName {
+    return @"Mine";
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

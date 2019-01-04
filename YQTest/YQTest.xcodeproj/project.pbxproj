@@ -57,10 +57,6 @@
 		0915526B21D61324000FDBFC /* TradingInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0915526A21D61324000FDBFC /* TradingInformationView.xib */; };
 		091986F721D45CAD00C7C5A5 /* YQBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091986F621D45CAD00C7C5A5 /* YQBaseView.m */; };
 		0919870121D4644100C7C5A5 /* HomeTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919870021D4644100C7C5A5 /* HomeTitleCell.m */; };
-		0919870521D46E0100C7C5A5 /* SingContractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919870421D46E0100C7C5A5 /* SingContractVC.m */; };
-		0919870D21D477CD00C7C5A5 /* MyBillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919870C21D477CD00C7C5A5 /* MyBillCell.m */; };
-		0919871721D48A4A00C7C5A5 /* SellerInfomationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919871621D48A4A00C7C5A5 /* SellerInfomationCell.m */; };
-		0919871A21D48C6500C7C5A5 /* SingContractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919871921D48C6500C7C5A5 /* SingContractCell.m */; };
 		0919872621D4B08800C7C5A5 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919872521D4B08800C7C5A5 /* RegisterVC.m */; };
 		0919874B21D4B3B000C7C5A5 /* ForgetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919874A21D4B3B000C7C5A5 /* ForgetPasswordVC.m */; };
 		0919878021D4CB5100C7C5A5 /* VerifiedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0919877F21D4CB5100C7C5A5 /* VerifiedVC.m */; };
@@ -102,6 +98,11 @@
 		0981E2E721D362F100C2D119 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2E521D362F000C2D119 /* HomeVC.m */; };
 		0981E2EA21D3630B00C2D119 /* YQBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2E921D3630B00C2D119 /* YQBaseTableViewCell.m */; };
 		0981E2ED21D3633D00C2D119 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981E2EC21D3633D00C2D119 /* HomeCell.m */; };
+		09AB2B7C21DF3CE300DEC09C /* SellerInfomationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB2B7421DF3CE300DEC09C /* SellerInfomationCell.m */; };
+		09AB2B7D21DF3CE300DEC09C /* MyBillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB2B7521DF3CE300DEC09C /* MyBillCell.m */; };
+		09AB2B7E21DF3CE300DEC09C /* SingContractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB2B7921DF3CE300DEC09C /* SingContractCell.m */; };
+		09AB2B7F21DF3CE300DEC09C /* SingContractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB2B7B21DF3CE300DEC09C /* SingContractVC.m */; };
+		09AB2B8321DF5A2800DEC09C /* BindingBandkCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AB2B8221DF5A2800DEC09C /* BindingBandkCardVC.m */; };
 		09C0886521DDF19F00A2A515 /* PublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C0886421DDF19F00A2A515 /* PublishView.m */; };
 		09C0886721DDF1AB00A2A515 /* PublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C0886621DDF1AB00A2A515 /* PublishView.xib */; };
 		09C0886B21DDF9A700A2A515 /* MyPublishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C0886A21DDF9A700A2A515 /* MyPublishVC.m */; };
@@ -221,15 +222,7 @@
 		091986F621D45CAD00C7C5A5 /* YQBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBaseView.m; sourceTree = "<group>"; };
 		091986FF21D4644100C7C5A5 /* HomeTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTitleCell.h; sourceTree = "<group>"; };
 		0919870021D4644100C7C5A5 /* HomeTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTitleCell.m; sourceTree = "<group>"; };
-		0919870321D46E0100C7C5A5 /* SingContractVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingContractVC.h; sourceTree = "<group>"; };
-		0919870421D46E0100C7C5A5 /* SingContractVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingContractVC.m; sourceTree = "<group>"; };
-		0919870B21D477CD00C7C5A5 /* MyBillCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBillCell.h; sourceTree = "<group>"; };
-		0919870C21D477CD00C7C5A5 /* MyBillCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBillCell.m; sourceTree = "<group>"; };
 		0919870F21D4810E00C7C5A5 /* YQColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQColor.h; sourceTree = "<group>"; };
-		0919871521D48A4A00C7C5A5 /* SellerInfomationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SellerInfomationCell.h; sourceTree = "<group>"; };
-		0919871621D48A4A00C7C5A5 /* SellerInfomationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SellerInfomationCell.m; sourceTree = "<group>"; };
-		0919871821D48C6500C7C5A5 /* SingContractCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingContractCell.h; sourceTree = "<group>"; };
-		0919871921D48C6500C7C5A5 /* SingContractCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingContractCell.m; sourceTree = "<group>"; };
 		0919872421D4B08800C7C5A5 /* RegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
 		0919872521D4B08800C7C5A5 /* RegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
 		0919874921D4B3B000C7C5A5 /* ForgetPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordVC.h; sourceTree = "<group>"; };
@@ -311,6 +304,16 @@
 		0981E2E921D3630B00C2D119 /* YQBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBaseTableViewCell.m; sourceTree = "<group>"; };
 		0981E2EB21D3633D00C2D119 /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		0981E2EC21D3633D00C2D119 /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		09AB2B7421DF3CE300DEC09C /* SellerInfomationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellerInfomationCell.m; sourceTree = "<group>"; };
+		09AB2B7521DF3CE300DEC09C /* MyBillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBillCell.m; sourceTree = "<group>"; };
+		09AB2B7621DF3CE300DEC09C /* SingContractCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingContractCell.h; sourceTree = "<group>"; };
+		09AB2B7721DF3CE300DEC09C /* SingContractVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingContractVC.h; sourceTree = "<group>"; };
+		09AB2B7821DF3CE300DEC09C /* SellerInfomationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellerInfomationCell.h; sourceTree = "<group>"; };
+		09AB2B7921DF3CE300DEC09C /* SingContractCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingContractCell.m; sourceTree = "<group>"; };
+		09AB2B7A21DF3CE300DEC09C /* MyBillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBillCell.h; sourceTree = "<group>"; };
+		09AB2B7B21DF3CE300DEC09C /* SingContractVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingContractVC.m; sourceTree = "<group>"; };
+		09AB2B8121DF5A2800DEC09C /* BindingBandkCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BindingBandkCardVC.h; sourceTree = "<group>"; };
+		09AB2B8221DF5A2800DEC09C /* BindingBandkCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BindingBandkCardVC.m; sourceTree = "<group>"; };
 		09C0886321DDF19F00A2A515 /* PublishView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishView.h; sourceTree = "<group>"; };
 		09C0886421DDF19F00A2A515 /* PublishView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishView.m; sourceTree = "<group>"; };
 		09C0886621DDF1AB00A2A515 /* PublishView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishView.xib; sourceTree = "<group>"; };
@@ -592,21 +595,6 @@
 			path = VC/View;
 			sourceTree = "<group>";
 		};
-		0919870221D46DE000C7C5A5 /* SingContract */ = {
-			isa = PBXGroup;
-			children = (
-				0919870321D46E0100C7C5A5 /* SingContractVC.h */,
-				0919870421D46E0100C7C5A5 /* SingContractVC.m */,
-				0919871821D48C6500C7C5A5 /* SingContractCell.h */,
-				0919871921D48C6500C7C5A5 /* SingContractCell.m */,
-				0919870B21D477CD00C7C5A5 /* MyBillCell.h */,
-				0919870C21D477CD00C7C5A5 /* MyBillCell.m */,
-				0919871521D48A4A00C7C5A5 /* SellerInfomationCell.h */,
-				0919871621D48A4A00C7C5A5 /* SellerInfomationCell.m */,
-			);
-			path = SingContract;
-			sourceTree = "<group>";
-		};
 		0919870E21D47D8100C7C5A5 /* Help */ = {
 			isa = PBXGroup;
 			children = (
@@ -792,6 +780,8 @@
 			isa = PBXGroup;
 			children = (
 				0981E2BA21D3539300C2D119 /* Mine.storyboard */,
+				09AB2B8021DF5A0100DEC09C /* BindingBankCard */,
+				09AB2B7321DF3CE300DEC09C /* SingContract */,
 				0911920721DF089400ABEA67 /* MySell */,
 				09C0886821DDF94B00A2A515 /* MyPublish */,
 				091AA93A21DCA1D200B83187 /* MyBuyBill */,
@@ -807,7 +797,6 @@
 				0981E2B321D3535100C2D119 /* Home.storyboard */,
 				0915525621D60831000FDBFC /* TransactionApplication */,
 				091551E921D5D01A000FDBFC /* BillDetails */,
-				0919870221D46DE000C7C5A5 /* SingContract */,
 				0981E2E421D362F000C2D119 /* Home */,
 			);
 			path = Home;
@@ -877,6 +866,30 @@
 				0919870021D4644100C7C5A5 /* HomeTitleCell.m */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		09AB2B7321DF3CE300DEC09C /* SingContract */ = {
+			isa = PBXGroup;
+			children = (
+				09AB2B7A21DF3CE300DEC09C /* MyBillCell.h */,
+				09AB2B7521DF3CE300DEC09C /* MyBillCell.m */,
+				09AB2B7821DF3CE300DEC09C /* SellerInfomationCell.h */,
+				09AB2B7421DF3CE300DEC09C /* SellerInfomationCell.m */,
+				09AB2B7621DF3CE300DEC09C /* SingContractCell.h */,
+				09AB2B7921DF3CE300DEC09C /* SingContractCell.m */,
+				09AB2B7721DF3CE300DEC09C /* SingContractVC.h */,
+				09AB2B7B21DF3CE300DEC09C /* SingContractVC.m */,
+			);
+			path = SingContract;
+			sourceTree = "<group>";
+		};
+		09AB2B8021DF5A0100DEC09C /* BindingBankCard */ = {
+			isa = PBXGroup;
+			children = (
+				09AB2B8121DF5A2800DEC09C /* BindingBandkCardVC.h */,
+				09AB2B8221DF5A2800DEC09C /* BindingBandkCardVC.m */,
+			);
+			path = BindingBankCard;
 			sourceTree = "<group>";
 		};
 		09C0886221DDF18E00A2A515 /* PublishView */ = {
@@ -1127,6 +1140,7 @@
 				09C0886E21DDFA0700A2A515 /* MyPublishCell.m in Sources */,
 				09C0886B21DDF9A700A2A515 /* MyPublishVC.m in Sources */,
 				0915523F21D5D6EA000FDBFC /* NSArray+Help.m in Sources */,
+				09AB2B8321DF5A2800DEC09C /* BindingBandkCardVC.m in Sources */,
 				0981E2CD21D3573600C2D119 /* LoginVC.m in Sources */,
 				091551E421D5C077000FDBFC /* SHImagePicker.m in Sources */,
 				0915524821D5D6EA000FDBFC /* PooCodeView.m in Sources */,
@@ -1138,7 +1152,6 @@
 				0915524521D5D6EA000FDBFC /* NSString+Help.m in Sources */,
 				0981E2ED21D3633D00C2D119 /* HomeCell.m in Sources */,
 				091986F721D45CAD00C7C5A5 /* YQBaseView.m in Sources */,
-				0919871A21D48C6500C7C5A5 /* SingContractCell.m in Sources */,
 				0915523D21D5D6EA000FDBFC /* UIImage+Help.m in Sources */,
 				0911920A21DF247200ABEA67 /* MySellMenuVC.m in Sources */,
 				0923BB4221D346B9007A294B /* main.m in Sources */,
@@ -1148,7 +1161,7 @@
 				0981E2DC21D35B6300C2D119 /* YQBaseTableViewController.m in Sources */,
 				0911921021DF250D00ABEA67 /* MySellCell.m in Sources */,
 				0915521E21D5D507000FDBFC /* YQBaseRequest.m in Sources */,
-				0919870521D46E0100C7C5A5 /* SingContractVC.m in Sources */,
+				09AB2B7F21DF3CE300DEC09C /* SingContractVC.m in Sources */,
 				091551FB21D5D0C2000FDBFC /* TradingStatusView.m in Sources */,
 				0915524221D5D6EA000FDBFC /* UIView+Help.m in Sources */,
 				091D258121DDDB4400BAF335 /* MyBuyBillMenuVC.m in Sources */,
@@ -1157,9 +1170,9 @@
 				0915524121D5D6EA000FDBFC /* UIViewController+Help.m in Sources */,
 				0915525221D5F499000FDBFC /* BillDetailCell.m in Sources */,
 				0981E2D921D3578200C2D119 /* PublishVC.m in Sources */,
+				09AB2B7E21DF3CE300DEC09C /* SingContractCell.m in Sources */,
 				0919872621D4B08800C7C5A5 /* RegisterVC.m in Sources */,
 				091AA93E21DCA45200B83187 /* LBMenuVC.m in Sources */,
-				0919871721D48A4A00C7C5A5 /* SellerInfomationCell.m in Sources */,
 				0915524321D5D6EA000FDBFC /* UIImage+GenerateQRCode.m in Sources */,
 				0915520021D5D0C2000FDBFC /* SellerInfomationView.m in Sources */,
 				0915524421D5D6EA000FDBFC /* UINavigationController+help.m in Sources */,
@@ -1167,6 +1180,7 @@
 				0915524021D5D6EA000FDBFC /* UIPickerView+Help.m in Sources */,
 				0915524621D5D6EA000FDBFC /* HUD.m in Sources */,
 				0981E2D021D3574400C2D119 /* TransactionVC.m in Sources */,
+				09AB2B7C21DF3CE300DEC09C /* SellerInfomationCell.m in Sources */,
 				0919878021D4CB5100C7C5A5 /* VerifiedVC.m in Sources */,
 				0915526521D611CA000FDBFC /* PaymentAccountView.m in Sources */,
 				091AA93621DC923300B83187 /* MineItemCell.m in Sources */,
@@ -1182,8 +1196,8 @@
 				0981E2E321D3620200C2D119 /* AccountModel.m in Sources */,
 				0915526921D6131D000FDBFC /* TradingInformationView.m in Sources */,
 				0981E2E021D361F700C2D119 /* YQBaseModel.m in Sources */,
+				09AB2B7D21DF3CE300DEC09C /* MyBillCell.m in Sources */,
 				0915524C21D5D740000FDBFC /* SHOperation.m in Sources */,
-				0919870D21D477CD00C7C5A5 /* MyBillCell.m in Sources */,
 				091551FE21D5D0C2000FDBFC /* MyBillView.m in Sources */,
 				0911920221DEF78900ABEA67 /* TransactionHeaderCell.m in Sources */,
 				091D257C21DD9E2300BAF335 /* BillView.m in Sources */,

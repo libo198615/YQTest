@@ -10,6 +10,7 @@
 #import "VerifiedCell.h"
 #import "VerifiedUploadCell.h"
 #import "SHImagePicker.h"
+#import "BindingBandkCardVC.h"
 
 @interface VerifiedVC () <VerifiedUploadCellDelegate,SHImagePickerDelegate>
 
@@ -35,6 +36,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"实名认证";
     
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
@@ -129,7 +132,8 @@
 
 #pragma mark - VerifiedUploadCellDelegate -
 - (void)nextBtnSelected {
-    
+    BindingBandkCardVC *vc = [BindingBandkCardVC storyboardInstanceType];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)uploadImageToImageView:(UIImageView *)imageView {

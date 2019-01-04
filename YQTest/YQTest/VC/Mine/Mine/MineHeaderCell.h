@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) IBOutlet UILabel *companyLabel;
 
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *phoneLabelCenterYConstraint;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
