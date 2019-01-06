@@ -33,6 +33,11 @@
     MyBuyBillVC *vc4 = [MyBuyBillVC storyboardInstanceType];
     vc4.billStatus = BillStatusDone;
     
+    self.menuView.titleColor = Color_333333;
+    self.menuView.titleSelectedColor = Color_548AE8;
+    self.menuView.lineColor = Color_548AE8;
+    self.menuView.backgroundColor = [UIColor whiteColor];
+    
     [self setTitles:@[@"全部", @"待对方确认", @"代付款", @"已完成"] viewControllers:@[vc1, vc2, vc3, vc4]];
 }
 

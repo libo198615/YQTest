@@ -35,6 +35,7 @@
 
 
 @property (nonatomic, weak) UIViewController *superVC;
+
 - (void)showImagePickerSheetInViewController:(UIViewController *)vc;
 
 @end

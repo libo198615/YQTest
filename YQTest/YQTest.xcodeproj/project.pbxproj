@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090E72D721E1CA76008EB0BD /* PersonalHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72D621E1CA76008EB0BD /* PersonalHeadCell.m */; };
+		090E72DA21E1CA87008EB0BD /* ContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72D921E1CA87008EB0BD /* ContentCell.m */; };
+		090E72DE21E1D205008EB0BD /* AboutUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72DD21E1D205008EB0BD /* AboutUsVC.m */; };
+		090E72E121E1D2C3008EB0BD /* ArrowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72E021E1D2C3008EB0BD /* ArrowCell.m */; };
+		090E72E521E1D573008EB0BD /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72E421E1D573008EB0BD /* SettingVC.m */; };
 		0911920221DEF78900ABEA67 /* TransactionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191F921DEF78900ABEA67 /* TransactionHeaderCell.m */; };
 		0911920321DEF78900ABEA67 /* TransactionPaymentAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191FE21DEF78900ABEA67 /* TransactionPaymentAccountCell.m */; };
 		0911920421DEF78900ABEA67 /* TransactionBaseInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191FF21DEF78900ABEA67 /* TransactionBaseInfoCell.m */; };
@@ -15,6 +20,12 @@
 		0911920A21DF247200ABEA67 /* MySellMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911920921DF247200ABEA67 /* MySellMenuVC.m */; };
 		0911920D21DF24F800ABEA67 /* MySellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911920C21DF24F800ABEA67 /* MySellVC.m */; };
 		0911921021DF250D00ABEA67 /* MySellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911920F21DF250D00ABEA67 /* MySellCell.m */; };
+		09150B6321E052D70084AC74 /* UIView+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 09150B6221E052D70084AC74 /* UIView+Badge.m */; };
+		09150B6721E0923F0084AC74 /* BankInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09150B6621E0923F0084AC74 /* BankInfoView.m */; };
+		09150B6921E092490084AC74 /* BankInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09150B6821E092490084AC74 /* BankInfoView.xib */; };
+		09150B6D21E096FB0084AC74 /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09150B6C21E096FB0084AC74 /* FilterView.m */; };
+		09150B6F21E0970A0084AC74 /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09150B6E21E0970A0084AC74 /* FilterView.xib */; };
+		09150B7321E0ABC00084AC74 /* PersonalCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09150B7221E0ABC00084AC74 /* PersonalCenterVC.m */; };
 		091551E021D5B97E000FDBFC /* VerifiedUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551DF21D5B97E000FDBFC /* VerifiedUploadCell.m */; };
 		091551E421D5C077000FDBFC /* SHImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551E221D5C077000FDBFC /* SHImagePicker.m */; };
 		091551E821D5C2E1000FDBFC /* SHAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091551E721D5C2E1000FDBFC /* SHAlertController.m */; };
@@ -130,6 +141,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090E72D521E1CA76008EB0BD /* PersonalHeadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalHeadCell.h; sourceTree = "<group>"; };
+		090E72D621E1CA76008EB0BD /* PersonalHeadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalHeadCell.m; sourceTree = "<group>"; };
+		090E72D821E1CA87008EB0BD /* ContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentCell.h; sourceTree = "<group>"; };
+		090E72D921E1CA87008EB0BD /* ContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentCell.m; sourceTree = "<group>"; };
+		090E72DC21E1D205008EB0BD /* AboutUsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsVC.h; sourceTree = "<group>"; };
+		090E72DD21E1D205008EB0BD /* AboutUsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsVC.m; sourceTree = "<group>"; };
+		090E72DF21E1D2C3008EB0BD /* ArrowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowCell.h; sourceTree = "<group>"; };
+		090E72E021E1D2C3008EB0BD /* ArrowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowCell.m; sourceTree = "<group>"; };
+		090E72E321E1D573008EB0BD /* SettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		090E72E421E1D573008EB0BD /* SettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
 		091191F821DEF78900ABEA67 /* TransactionPaymentAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionPaymentAccountCell.h; sourceTree = "<group>"; };
 		091191F921DEF78900ABEA67 /* TransactionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionHeaderCell.m; sourceTree = "<group>"; };
 		091191FA21DEF78900ABEA67 /* TransactionBaseInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionBaseInfoCell.h; sourceTree = "<group>"; };
@@ -146,6 +167,16 @@
 		0911920C21DF24F800ABEA67 /* MySellVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySellVC.m; sourceTree = "<group>"; };
 		0911920E21DF250D00ABEA67 /* MySellCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySellCell.h; sourceTree = "<group>"; };
 		0911920F21DF250D00ABEA67 /* MySellCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySellCell.m; sourceTree = "<group>"; };
+		09150B6121E052D70084AC74 /* UIView+Badge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Badge.h"; sourceTree = "<group>"; };
+		09150B6221E052D70084AC74 /* UIView+Badge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Badge.m"; sourceTree = "<group>"; };
+		09150B6521E0923F0084AC74 /* BankInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankInfoView.h; sourceTree = "<group>"; };
+		09150B6621E0923F0084AC74 /* BankInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankInfoView.m; sourceTree = "<group>"; };
+		09150B6821E092490084AC74 /* BankInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankInfoView.xib; sourceTree = "<group>"; };
+		09150B6B21E096FB0084AC74 /* FilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterView.h; sourceTree = "<group>"; };
+		09150B6C21E096FB0084AC74 /* FilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
+		09150B6E21E0970A0084AC74 /* FilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
+		09150B7121E0ABC00084AC74 /* PersonalCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterVC.h; sourceTree = "<group>"; };
+		09150B7221E0ABC00084AC74 /* PersonalCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterVC.m; sourceTree = "<group>"; };
 		091551DE21D5B97E000FDBFC /* VerifiedUploadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifiedUploadCell.h; sourceTree = "<group>"; };
 		091551DF21D5B97E000FDBFC /* VerifiedUploadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifiedUploadCell.m; sourceTree = "<group>"; };
 		091551E221D5C077000FDBFC /* SHImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHImagePicker.m; sourceTree = "<group>"; };
@@ -356,6 +387,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090E72DB21E1D1E7008EB0BD /* AboutUS */ = {
+			isa = PBXGroup;
+			children = (
+				090E72DC21E1D205008EB0BD /* AboutUsVC.h */,
+				090E72DD21E1D205008EB0BD /* AboutUsVC.m */,
+				090E72DF21E1D2C3008EB0BD /* ArrowCell.h */,
+				090E72E021E1D2C3008EB0BD /* ArrowCell.m */,
+			);
+			path = AboutUS;
+			sourceTree = "<group>";
+		};
+		090E72E221E1D558008EB0BD /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				090E72E321E1D573008EB0BD /* SettingVC.h */,
+				090E72E421E1D573008EB0BD /* SettingVC.m */,
+			);
+			path = SettingVC;
+			sourceTree = "<group>";
+		};
 		091191F721DEF78900ABEA67 /* TransactionDetail */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,11 +437,44 @@
 			path = MySell;
 			sourceTree = "<group>";
 		};
+		09150B6421E0922A0084AC74 /* BankInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				09150B6521E0923F0084AC74 /* BankInfoView.h */,
+				09150B6621E0923F0084AC74 /* BankInfoView.m */,
+				09150B6821E092490084AC74 /* BankInfoView.xib */,
+			);
+			path = BankInfoView;
+			sourceTree = "<group>";
+		};
+		09150B6A21E096A30084AC74 /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				09150B6B21E096FB0084AC74 /* FilterView.h */,
+				09150B6C21E096FB0084AC74 /* FilterView.m */,
+				09150B6E21E0970A0084AC74 /* FilterView.xib */,
+			);
+			path = FilterView;
+			sourceTree = "<group>";
+		};
+		09150B7021E0AB390084AC74 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				09150B7121E0ABC00084AC74 /* PersonalCenterVC.h */,
+				09150B7221E0ABC00084AC74 /* PersonalCenterVC.m */,
+				090E72D521E1CA76008EB0BD /* PersonalHeadCell.h */,
+				090E72D621E1CA76008EB0BD /* PersonalHeadCell.m */,
+				090E72D821E1CA87008EB0BD /* ContentCell.h */,
+				090E72D921E1CA87008EB0BD /* ContentCell.m */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
 		091551E121D5C077000FDBFC /* ImagePacker */ = {
 			isa = PBXGroup;
 			children = (
-				091551E221D5C077000FDBFC /* SHImagePicker.m */,
 				091551E321D5C077000FDBFC /* SHImagePicker.h */,
+				091551E221D5C077000FDBFC /* SHImagePicker.m */,
 			);
 			path = ImagePacker;
 			sourceTree = "<group>";
@@ -502,6 +586,8 @@
 				0915522321D5D6E9000FDBFC /* UITextField+Help.m */,
 				0915522021D5D6E9000FDBFC /* UIView+Help.h */,
 				0915522C21D5D6E9000FDBFC /* UIView+Help.m */,
+				09150B6121E052D70084AC74 /* UIView+Badge.h */,
+				09150B6221E052D70084AC74 /* UIView+Badge.m */,
 				0915523321D5D6E9000FDBFC /* UIViewController+Help.h */,
 				0915522721D5D6E9000FDBFC /* UIViewController+Help.m */,
 				091D258221DDDD4400BAF335 /* LBPushHelp.h */,
@@ -580,6 +666,8 @@
 		091986F121D45C4400C7C5A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				09150B6A21E096A30084AC74 /* FilterView */,
+				09150B6421E0922A0084AC74 /* BankInfoView */,
 				09C0886221DDF18E00A2A515 /* PublishView */,
 				091D257921DD9DE100BAF335 /* BillView */,
 				0915526621D61316000FDBFC /* TradingInformationView */,
@@ -780,6 +868,9 @@
 			isa = PBXGroup;
 			children = (
 				0981E2BA21D3539300C2D119 /* Mine.storyboard */,
+				090E72E221E1D558008EB0BD /* SettingVC */,
+				090E72DB21E1D1E7008EB0BD /* AboutUS */,
+				09150B7021E0AB390084AC74 /* PersonalCenter */,
 				09AB2B8021DF5A0100DEC09C /* BindingBankCard */,
 				09AB2B7321DF3CE300DEC09C /* SingContract */,
 				0911920721DF089400ABEA67 /* MySell */,
@@ -1056,10 +1147,12 @@
 				0981E2BF21D353AD00C2D119 /* Publish.storyboard in Resources */,
 				0915520121D5D0C2000FDBFC /* SellerInfomationView.xib in Resources */,
 				091551FA21D5D0C2000FDBFC /* TradingStatusView.xib in Resources */,
+				09150B6921E092490084AC74 /* BankInfoView.xib in Resources */,
 				0915520721D5D0FA000FDBFC /* BillDetailsView.xib in Resources */,
 				0981E2BB21D3539300C2D119 /* Mine.storyboard in Resources */,
 				0981E2C621D3550700C2D119 /* Login.storyboard in Resources */,
 				0915526221D611BF000FDBFC /* PaymentAccountView.xib in Resources */,
+				09150B6F21E0970A0084AC74 /* FilterView.xib in Resources */,
 				0981E2C321D354A300C2D119 /* YQTabBar.storyboard in Resources */,
 				09C0886721DDF1AB00A2A515 /* PublishView.xib in Resources */,
 				0915525F21D60ECC000FDBFC /* TradingHeaderView.xib in Resources */,
@@ -1134,6 +1227,7 @@
 				0915523E21D5D6EA000FDBFC /* UITextField+Help.m in Sources */,
 				091AA93921DC924100B83187 /* MineSelectCell.m in Sources */,
 				0981E2AC21D3508000C2D119 /* YQTabBarController.m in Sources */,
+				09150B6D21E096FB0084AC74 /* FilterView.m in Sources */,
 				09C0886521DDF19F00A2A515 /* PublishView.m in Sources */,
 				0923BB3721D346B8007A294B /* ViewController.m in Sources */,
 				0915521D21D5D507000FDBFC /* HTTPManager.m in Sources */,
@@ -1146,12 +1240,15 @@
 				0915524821D5D6EA000FDBFC /* PooCodeView.m in Sources */,
 				091551E821D5C2E1000FDBFC /* SHAlertController.m in Sources */,
 				0981E2E721D362F100C2D119 /* HomeVC.m in Sources */,
+				090E72D721E1CA76008EB0BD /* PersonalHeadCell.m in Sources */,
 				091AA93021DC8D7C00B83187 /* MineVC.m in Sources */,
 				0911920421DEF78900ABEA67 /* TransactionBaseInfoCell.m in Sources */,
 				0919870121D4644100C7C5A5 /* HomeTitleCell.m in Sources */,
+				09150B7321E0ABC00084AC74 /* PersonalCenterVC.m in Sources */,
 				0915524521D5D6EA000FDBFC /* NSString+Help.m in Sources */,
 				0981E2ED21D3633D00C2D119 /* HomeCell.m in Sources */,
 				091986F721D45CAD00C7C5A5 /* YQBaseView.m in Sources */,
+				090E72E521E1D573008EB0BD /* SettingVC.m in Sources */,
 				0915523D21D5D6EA000FDBFC /* UIImage+Help.m in Sources */,
 				0911920A21DF247200ABEA67 /* MySellMenuVC.m in Sources */,
 				0923BB4221D346B9007A294B /* main.m in Sources */,
@@ -1159,6 +1256,7 @@
 				091AA94721DCB0EB00B83187 /* LBMenuView.m in Sources */,
 				091551E021D5B97E000FDBFC /* VerifiedUploadCell.m in Sources */,
 				0981E2DC21D35B6300C2D119 /* YQBaseTableViewController.m in Sources */,
+				090E72E121E1D2C3008EB0BD /* ArrowCell.m in Sources */,
 				0911921021DF250D00ABEA67 /* MySellCell.m in Sources */,
 				0915521E21D5D507000FDBFC /* YQBaseRequest.m in Sources */,
 				09AB2B7F21DF3CE300DEC09C /* SingContractVC.m in Sources */,
@@ -1188,11 +1286,14 @@
 				091AA93321DC921700B83187 /* MineHeaderCell.m in Sources */,
 				0915525521D5F4B3000FDBFC /* BillPhotoCell.m in Sources */,
 				0911920521DEF78900ABEA67 /* TransactionDetailVC.m in Sources */,
+				09150B6321E052D70084AC74 /* UIView+Badge.m in Sources */,
 				0919874B21D4B3B000C7C5A5 /* ForgetPasswordVC.m in Sources */,
 				0911920321DEF78900ABEA67 /* TransactionPaymentAccountCell.m in Sources */,
 				0911920621DEF78900ABEA67 /* TransactionInfoCell.m in Sources */,
 				0915525D21D60EBD000FDBFC /* TradingHeaderView.m in Sources */,
+				090E72DE21E1D205008EB0BD /* AboutUsVC.m in Sources */,
 				0981E2EA21D3630B00C2D119 /* YQBaseTableViewCell.m in Sources */,
+				09150B6721E0923F0084AC74 /* BankInfoView.m in Sources */,
 				0981E2E321D3620200C2D119 /* AccountModel.m in Sources */,
 				0915526921D6131D000FDBFC /* TradingInformationView.m in Sources */,
 				0981E2E021D361F700C2D119 /* YQBaseModel.m in Sources */,
@@ -1211,6 +1312,7 @@
 				0915523C21D5D6EA000FDBFC /* UIColor+Help.m in Sources */,
 				097A4A6E21D3687B00EF8053 /* YQBaseViewModel.m in Sources */,
 				091AA94121DCA59A00B83187 /* LBMenuCell.m in Sources */,
+				090E72DA21E1CA87008EB0BD /* ContentCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

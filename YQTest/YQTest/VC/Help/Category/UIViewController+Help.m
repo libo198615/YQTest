@@ -38,7 +38,7 @@
 }
 
 + (NSString *)storyboardName {
-    return @"未命名";
+    return @"未指定正确的 storyboard name";
 }
 
 

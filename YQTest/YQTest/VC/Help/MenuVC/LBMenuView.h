@@ -20,14 +20,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id <LBMenuViewDelegate> delegate;
 
-- (void)setTitles:(NSArray *)titles;
 
-- (void)setSelectedTitleAtIndex:(NSInteger)index;
 
 @property (nonatomic, strong) UIFont *titleFont;
+@property (nonatomic, strong) UIColor *titleColor;
+@property (nonatomic, strong) UIColor *titleSelectedColor;
+
 @property (nonatomic, strong) UIColor *lineColor;
 
 @property (nonatomic, assign) NSInteger currentIndex;
+
+
+- (void)setTitles:(NSArray *)titles;
+
+- (void)setSelectedTitleAtIndex:(NSInteger)index;
 
 @end
 

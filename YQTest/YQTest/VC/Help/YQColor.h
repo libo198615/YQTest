@@ -14,6 +14,8 @@
 #define Color_333333 [UIColor hex:@"333333"]
 #define Color_595961 [UIColor hex:@"595961"]
 #define Color_FF314A [UIColor hex:@"FF314A"]
+#define Color_548AE8 [UIColor hex:@"#548AE8"]
+
 
 
 #endif /* YQColor_h */

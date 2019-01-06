@@ -66,6 +66,8 @@
     [self addSubview:_line];
     float width = [_titleWidth[0] floatValue];
     _line.frame = CGRectMake((self.frame.size.width/_titles.count-width)/2, self.frame.size.height-5, width, 2);
+    
+    [self selectAnimation:_btns[0]];
 }
 
 - (void)btnAction:(UIButton *)button {
@@ -83,6 +85,14 @@
         weakSelf.line.frame = CGRectMake(self.frame.size.width/weakSelf.titles.count*button.tag + (self.frame.size.width/weakSelf.titles.count-width)/2, self.frame.size.height-5, width, 2);
     }];
     _currentIndex = button.tag;
+    
+    for (UIButton *btn in _btns) {
+        btn.titleLabel.font = _titleFont;
+        [btn setTitleColor:_titleColor forState:UIControlStateNormal];
+        if (btn == button) {
+            [btn setTitleColor:_titleSelectedColor forState:UIControlStateNormal];
+        }
+    }
 }
 
 - (void)setSelectedTitleAtIndex:(NSInteger)index {

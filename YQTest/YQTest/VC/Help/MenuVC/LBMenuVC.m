@@ -8,7 +8,6 @@
 
 #import "LBMenuVC.h"
 #import "LBMenuCell.h"
-#import "LBMenuView.h"
 
 @interface LBMenuVC ()   <UICollectionViewDelegate,
                         UICollectionViewDataSource,
@@ -19,7 +18,6 @@
 
 @property (nonatomic, strong) NSArray *titles;
 @property (nonatomic, strong) NSArray *viewControllers;
-@property (nonatomic, strong) LBMenuView *menuView;
 @property (nonatomic, assign) NSInteger currentShowCellRow;
 
 @end
@@ -29,7 +27,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    _menuView = [[LBMenuView alloc] init];
+    _menuHeight = 40;
+//    _titleFont = [UIFont systemFontOfSize:14];
+//    _titleColor = [UIColor blackColor];
+//    _titleSelectedColor = [UIColor blueColor];
+//    _menuColor = [UIColor groupTableViewBackgroundColor];
 }
 
 - (void)setTitles:(NSArray *)titles viewControllers:(NSArray *)viewControllers {
@@ -41,10 +44,9 @@
     
     float height = self.navigationController.navigationBar.frame.size.height + [[UIApplication sharedApplication] statusBarFrame].size.height;
     
-    _menuView = [[LBMenuView alloc] initWithFrame:CGRectMake(0, height, self.view.bounds.size.width, 80)];
+    _menuView.frame = CGRectMake(0, height, self.view.bounds.size.width, _menuHeight);
     [self.view addSubview:_menuView];
     [_menuView setTitles:_titles];
-    _menuView.backgroundColor = [UIColor redColor];
     _menuView.delegate = self;
     
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];

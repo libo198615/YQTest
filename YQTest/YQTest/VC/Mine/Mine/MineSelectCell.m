@@ -34,4 +34,9 @@
     }
 }
 
+- (void)setLeftBadge:(NSInteger)leftBadge {
+    _leftBadge = leftBadge;
+    [_leftBtn LB_setBadgeNumber:leftBadge];
+}
+
 @end

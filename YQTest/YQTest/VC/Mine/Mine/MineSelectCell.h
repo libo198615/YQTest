@@ -7,6 +7,7 @@
 //
 
 #import "YQBaseTableViewCell.h"
+#import "UIView+Badge.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) IBOutlet UIButton *rightBtn;
 
 @property (strong, nonatomic) IBOutlet UIView *line;
+
+@property (nonatomic, assign) NSInteger leftBadge;
+@property (nonatomic, assign) NSInteger rightBadge;
 
 @end
 

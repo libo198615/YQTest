@@ -14,6 +14,8 @@
 #import "MySellMenuVC.h"
 #import "MyPublishVC.h"
 #import "VerifiedVC.h"
+#import "PersonalCenterVC.h"
+#import "SettingVC.h"
 
 @interface MineVC () <MineSelectCellDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -56,6 +58,7 @@
     } else if (indexPath.section == 1) {
         MineSelectCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MineSelectCell"];
         cell.delegate = self;
+        [cell setLeftBadge:5];
         return cell;
     } else {
         MineItemCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MineItemCell"];
@@ -88,12 +91,18 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 2) {
+    if (indexPath.section == 0) {
+        PersonalCenterVC *vc = [PersonalCenterVC storyboardInstanceType];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.section == 2) {
         if (indexPath.row == 0) {
             MyPublishVC *vc = [MyPublishVC storyboardInstanceType];
             [self.navigationController pushViewController:vc animated:YES];
         } else if (indexPath.row == 1) {
             VerifiedVC *vc = [VerifiedVC storyboardInstanceType];
+            [self.navigationController pushViewController:vc animated:YES];
+        } else if (indexPath.row == 4) {
+            SettingVC *vc = [SettingVC storyboardInstanceType];
             [self.navigationController pushViewController:vc animated:YES];
         }
     }

@@ -16,6 +16,8 @@
 
 
 
-
+- (void)dealloc {
+    NSLog(@"%@",self);
+}
 
 @end
