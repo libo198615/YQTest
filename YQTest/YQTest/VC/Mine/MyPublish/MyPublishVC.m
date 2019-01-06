@@ -8,6 +8,7 @@
 
 #import "MyPublishVC.h"
 #import "MyPublishCell.h"
+#import "PublishDetailVC.h"
 
 @interface MyPublishVC ()
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -38,6 +39,11 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 140;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    PublishDetailVC *vc = [PublishDetailVC storyboardInstanceType];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

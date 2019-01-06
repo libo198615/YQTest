@@ -12,6 +12,8 @@
 		090E72DE21E1D205008EB0BD /* AboutUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72DD21E1D205008EB0BD /* AboutUsVC.m */; };
 		090E72E121E1D2C3008EB0BD /* ArrowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72E021E1D2C3008EB0BD /* ArrowCell.m */; };
 		090E72E521E1D573008EB0BD /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72E421E1D573008EB0BD /* SettingVC.m */; };
+		090E72E921E1DB89008EB0BD /* PublishDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72E821E1DB89008EB0BD /* PublishDetailVC.m */; };
+		090E72EC21E1DCA3008EB0BD /* PublishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E72EB21E1DCA3008EB0BD /* PublishCell.m */; };
 		0911920221DEF78900ABEA67 /* TransactionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191F921DEF78900ABEA67 /* TransactionHeaderCell.m */; };
 		0911920321DEF78900ABEA67 /* TransactionPaymentAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191FE21DEF78900ABEA67 /* TransactionPaymentAccountCell.m */; };
 		0911920421DEF78900ABEA67 /* TransactionBaseInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091191FF21DEF78900ABEA67 /* TransactionBaseInfoCell.m */; };
@@ -151,6 +153,10 @@
 		090E72E021E1D2C3008EB0BD /* ArrowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowCell.m; sourceTree = "<group>"; };
 		090E72E321E1D573008EB0BD /* SettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
 		090E72E421E1D573008EB0BD /* SettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
+		090E72E721E1DB89008EB0BD /* PublishDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishDetailVC.h; sourceTree = "<group>"; };
+		090E72E821E1DB89008EB0BD /* PublishDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishDetailVC.m; sourceTree = "<group>"; };
+		090E72EA21E1DCA3008EB0BD /* PublishCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishCell.h; sourceTree = "<group>"; };
+		090E72EB21E1DCA3008EB0BD /* PublishCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishCell.m; sourceTree = "<group>"; };
 		091191F821DEF78900ABEA67 /* TransactionPaymentAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionPaymentAccountCell.h; sourceTree = "<group>"; };
 		091191F921DEF78900ABEA67 /* TransactionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionHeaderCell.m; sourceTree = "<group>"; };
 		091191FA21DEF78900ABEA67 /* TransactionBaseInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionBaseInfoCell.h; sourceTree = "<group>"; };
@@ -405,6 +411,17 @@
 				090E72E421E1D573008EB0BD /* SettingVC.m */,
 			);
 			path = SettingVC;
+			sourceTree = "<group>";
+		};
+		090E72E621E1DA6D008EB0BD /* PublishDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				090E72E721E1DB89008EB0BD /* PublishDetailVC.h */,
+				090E72E821E1DB89008EB0BD /* PublishDetailVC.m */,
+				090E72EA21E1DCA3008EB0BD /* PublishCell.h */,
+				090E72EB21E1DCA3008EB0BD /* PublishCell.m */,
+			);
+			path = PublishDetailVC;
 			sourceTree = "<group>";
 		};
 		091191F721DEF78900ABEA67 /* TransactionDetail */ = {
@@ -868,6 +885,7 @@
 			isa = PBXGroup;
 			children = (
 				0981E2BA21D3539300C2D119 /* Mine.storyboard */,
+				090E72E621E1DA6D008EB0BD /* PublishDetailVC */,
 				090E72E221E1D558008EB0BD /* SettingVC */,
 				090E72DB21E1D1E7008EB0BD /* AboutUS */,
 				09150B7021E0AB390084AC74 /* PersonalCenter */,
@@ -1230,6 +1248,7 @@
 				09150B6D21E096FB0084AC74 /* FilterView.m in Sources */,
 				09C0886521DDF19F00A2A515 /* PublishView.m in Sources */,
 				0923BB3721D346B8007A294B /* ViewController.m in Sources */,
+				090E72EC21E1DCA3008EB0BD /* PublishCell.m in Sources */,
 				0915521D21D5D507000FDBFC /* HTTPManager.m in Sources */,
 				09C0886E21DDFA0700A2A515 /* MyPublishCell.m in Sources */,
 				09C0886B21DDF9A700A2A515 /* MyPublishVC.m in Sources */,
@@ -1259,6 +1278,7 @@
 				090E72E121E1D2C3008EB0BD /* ArrowCell.m in Sources */,
 				0911921021DF250D00ABEA67 /* MySellCell.m in Sources */,
 				0915521E21D5D507000FDBFC /* YQBaseRequest.m in Sources */,
+				090E72E921E1DB89008EB0BD /* PublishDetailVC.m in Sources */,
 				09AB2B7F21DF3CE300DEC09C /* SingContractVC.m in Sources */,
 				091551FB21D5D0C2000FDBFC /* TradingStatusView.m in Sources */,
 				0915524221D5D6EA000FDBFC /* UIView+Help.m in Sources */,
