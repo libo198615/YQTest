@@ -16,13 +16,13 @@
             <rect key="frame" x="0.0" y="0.0" width="373" height="288"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cUP-Km-Pds">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adc-54-Vnb" customClass="SDCycleScrollView">
                     <rect key="frame" x="0.0" y="0.0" width="373" height="170"/>
                     <color key="backgroundColor" red="0.92311900849999995" green="0.3282692432" blue="0.30898445839999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="170" id="aXp-55-ih7"/>
+                        <constraint firstAttribute="height" constant="170" id="4Yl-3b-2D5"/>
                     </constraints>
-                </imageView>
+                </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTk-wA-jtY">
                     <rect key="frame" x="15" y="125" width="343" height="90"/>
                     <subviews>
@@ -81,23 +81,23 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="yTk-wA-jtY" firstAttribute="bottom" secondItem="cUP-Km-Pds" secondAttribute="bottom" constant="45" id="46O-ru-E6L"/>
                 <constraint firstItem="yTk-wA-jtY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="57W-i5-IkO"/>
-                <constraint firstItem="cUP-Km-Pds" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Alj-Iy-dlk"/>
+                <constraint firstItem="adc-54-Vnb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="GhO-em-jWa"/>
+                <constraint firstItem="adc-54-Vnb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MBX-q7-uwy"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yTk-wA-jtY" secondAttribute="trailing" constant="15" id="VWd-Iw-k9F"/>
-                <constraint firstItem="cUP-Km-Pds" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="XHY-G6-GZY"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cUP-Km-Pds" secondAttribute="trailing" id="r6m-8p-j4r"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="adc-54-Vnb" secondAttribute="trailing" id="bbe-fV-x8K"/>
+                <constraint firstItem="yTk-wA-jtY" firstAttribute="top" secondItem="adc-54-Vnb" secondAttribute="bottom" constant="-45" id="wOI-F6-IqT"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="contentView" destination="yTk-wA-jtY" id="2ll-zH-PBg"/>
-                <outlet property="imageView" destination="cUP-Km-Pds" id="o1b-nl-v7Y"/>
                 <outlet property="leftSubTitleLabel" destination="Jh0-9o-XRD" id="ocH-BU-qcw"/>
                 <outlet property="leftTitleLabel" destination="gyd-iB-Oih" id="oEr-uY-Ded"/>
                 <outlet property="line" destination="fzZ-cy-J6N" id="ghA-v0-2z4"/>
                 <outlet property="rightSubTitleLabel" destination="8jJ-Dc-eTy" id="OHN-zf-p6Y"/>
                 <outlet property="rightTitleLabel" destination="lcF-mf-77P" id="dyk-LO-kTO"/>
+                <outlet property="topView" destination="adc-54-Vnb" id="9Tp-At-mcM"/>
             </connections>
             <point key="canvasLocation" x="128.80000000000001" y="322.93853073463271"/>
         </view>

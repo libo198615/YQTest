@@ -10,12 +10,46 @@
 
 @implementation SetPasswordItem
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    [self layoutDefaultSubViews];
 }
-*/
+
+- (instancetype)init {
+    if (self = [super init]) {
+        [self layoutDefaultSubViews];
+    }
+    return self;
+}
+
+- (void)layoutDefaultSubViews {
+    _centerView = [[UIView alloc] init];
+    _centerView.backgroundColor = [UIColor blackColor];
+    [self addSubview:_centerView];
+    
+    [_centerView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.centerY.mas_equalTo(self);
+        make.width.height.mas_equalTo(10);
+    }];
+    
+    _centerView.layer.masksToBounds = YES;
+    _centerView.layer.cornerRadius = _centerView.frame.size.width/2;
+        _centerView.hidden = YES;
+    
+    self.layer.borderWidth = 1;
+    self.layer.borderColor = [UIColor grayColor].CGColor;
+
+}
+
+- (void)showIdentify {
+    _centerView.layer.masksToBounds = YES;
+    _centerView.layer.cornerRadius = _centerView.frame.size.width/2;
+    _centerView.hidden = NO;
+}
+
+- (void)hideIdentify {
+    _centerView.hidden = YES;
+}
 
 @end

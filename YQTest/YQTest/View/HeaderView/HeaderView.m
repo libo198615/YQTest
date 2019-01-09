@@ -25,6 +25,10 @@
     _line.backgroundColor = Color_F2F2F2;
 }
 
+- (void)setScrollImage:(NSArray *)images {
+    _topView.localizationImageNamesGroup = images;
+}
+
 - (void)setLeftTitle:(NSString *)left rightTitle:(NSString *)right {
 
     {

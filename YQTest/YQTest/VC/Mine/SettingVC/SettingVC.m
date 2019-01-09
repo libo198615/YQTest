@@ -9,6 +9,8 @@
 #import "SettingVC.h"
 #import "ArrowCell.h"
 #import "ContentCell.h"
+#import "VerifyIdentidyVC.h"
+#import "ResetLoginPasswordVC.h"
 
 @interface SettingVC ()
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -46,6 +48,16 @@
         cell.leftLabel.text = @"版本号";
         cell.rightLabel.text = @"V 1.0";
         return cell;
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        ResetLoginPasswordVC *vc = [ResetLoginPasswordVC storyboardInstanceType];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 1) {
+        VerifyIdentidyVC *vc = [VerifyIdentidyVC storyboardInstanceType];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 

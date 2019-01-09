@@ -7,12 +7,14 @@
 //
 
 #import "YQBaseView.h"
+#import <SDCycleScrollView/SDCycleScrollView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HeaderView : YQBaseView
 
-@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet SDCycleScrollView *topView;
+
 
 @property (strong, nonatomic) IBOutlet UIView *contentView;
 
@@ -27,6 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (void)setLeftTitle:(NSString *)left rightTitle:(NSString *)right;
+
+- (void)setScrollImage:(NSArray *)images;
 
 @end
 

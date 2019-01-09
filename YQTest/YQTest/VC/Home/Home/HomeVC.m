@@ -34,6 +34,20 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 2;
 }
@@ -48,12 +62,12 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 0) {
         HomeTitleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HomeTitleCell"];
-        
+
         return cell;
     } else {
         HomeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HomeCell"];
         cell.model = self.items[indexPath.row];
-        
+
         
         return cell;
 

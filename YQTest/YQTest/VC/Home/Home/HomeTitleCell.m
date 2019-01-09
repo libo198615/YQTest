@@ -28,6 +28,9 @@
     }];
     
     [_headerView setLeftTitle:@"2000" rightTitle:@"1245"];
+    
+    [_headerView setScrollImage:@[[UIImage imageNamed:@"1.jpg"],
+                                  [UIImage imageNamed:@"2.jpg"]]];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

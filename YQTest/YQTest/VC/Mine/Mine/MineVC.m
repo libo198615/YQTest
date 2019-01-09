@@ -32,7 +32,11 @@
     [super viewDidLoad];
     
     _leftTitles = @[@"我的发布", @"企业实名认证", @"常见问题", @"关于我们", @"设置"];
-    _leftImageNames = @[@"", @"", @"", @"", @""];
+    _leftImageNames = @[@"settingIcon_0",
+                        @"settingIcon_1",
+                        @"settingIcon_2",
+                        @"settingIcon_3",
+                        @"settingIcon_4"];
     _rightTitles = @[@"", @"未认证", @"", @"", @""];
 }
 

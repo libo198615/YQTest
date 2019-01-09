@@ -30,7 +30,6 @@
     self.title = @"票据详情";
 }
 
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 2;
 }

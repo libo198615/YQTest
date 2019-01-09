@@ -33,18 +33,18 @@
 //    [self.tabBar insertSubview:bgImageView atIndex:0];
 //    self.tabBar.clipsToBounds = YES;
     
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor hex:@"#E3C278"]} forState:UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor hex:@"#EF6607"]} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor hex:@"#8B9199"]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor hex:@"#648AE8"]} forState:UIControlStateSelected];
     
     NSArray *titles = @[@"首页", @"交易", @"发布", @"我的"];
     
     for (int i = 0; i < self.viewControllers.count; i++) {
         UIViewController *vc = self.viewControllers[i];
-        vc.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"tabbar_%d_unSelected",i]];
-        vc.tabBarItem.selectedImage = [UIImage imageNamed:[NSString stringWithFormat:@"tabbar_%d_selected",i]];
+        
+        vc.tabBarItem.image = [[UIImage imageNamed:[NSString stringWithFormat:@"tabbar_%d_unSelected",i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        vc.tabBarItem.selectedImage = [[UIImage imageNamed:[NSString stringWithFormat:@"tabbar_%d_selected",i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         vc.tabBarItem.title = titles[i];
     }
-    NSLog(@"%f,%f",self.tabBar.frame.size.width,self.tabBar.frame.size.height);
     
     self.delegate = self;
 }
